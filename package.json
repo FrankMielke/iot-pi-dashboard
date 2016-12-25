@@ -1,0 +1,15 @@
+{
+  "name": "watson-iot-standalone-dashboard",
+  "version": "1.0.0",
+  "description": "This shows the sample use of the watson IoT dashboard react js component in different frameworks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "angular-init": "cd ./angular-sample && npm install",
+    "angular-start": "cd ./angular-sample && node server",
+    "react-init": "cd ./react-sample && npm install",
+    "react-start": "cd ./react-sample && node server"
+    
+  },
+  "author": "Markus Juettner <markus.juettner@de.ibm.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "watson-iot-standalone-dashboard",
+  "version": "1.0.0",
+  "description": "This shows the sample use of the watson IoT dashboard react js component in different frameworks",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd ./public && npm install"
+  },
+  "author": "Markus Juettner <markus.juettner@de.ibm.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "^1.0.3",
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "request": "^2.76.0"
+  }
+}
