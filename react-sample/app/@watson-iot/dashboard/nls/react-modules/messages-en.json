@@ -1,0 +1,2290 @@
+{
+  "copyright": [
+    "Licensed Materials - Property of IBM",
+    "5725-Q07",
+    "(C) Copyright IBM Corp. 2015",
+    "US Government Users Restricted Rights - Use, duplication, or disclosure",
+    "restricted by GSA ADP Schedule Contract with IBM Corp."
+  ],
+  "react-modules": {
+    "Common": {
+      "Add": "Add",
+      "Back": "Back",
+      "Binding": "Binding",
+      "Cancel": "Cancel",
+      "Close": "Close",
+      "Configured": "Configured",
+      "Confirm": "Confirm",
+      "DeviceType": "Device Type",
+      "Done": "Done",
+      "EventType": "Event Type",
+      "Finish": "Finish",
+      "NotConfigured": "Not Configured",
+      "OK": "OK",
+      "Package": "Package",
+      "Partitions": "Partitions",
+      "Proceed": "Proceed",
+      "Remove": "Remove",
+      "Save": "Save",
+      "Select": "Select",
+      "Services": "Services",
+      "SettingUp": "Setting Up",
+      "Setup": "Setup",
+      "Status": "Status",
+      "Success": "Success",
+      "Topic": "Topic",
+      "UploadError": "Upload Error",
+      "Version": "Version",
+      "ViewConfiguration": "View Configuration",
+      "Country": "Country"
+    },
+    "Countries": {
+      "BD": "Bangladesh",
+      "BE": "Belgium",
+      "BF": "Burkina Faso",
+      "BG": "Bulgaria",
+      "BA": "Bosnia and Herzegovina",
+      "BB": "Barbados",
+      "WF": "Wallis and Futuna",
+      "BL": "Saint Barthelemy",
+      "BM": "Bermuda",
+      "BN": "Brunei",
+      "BO": "Bolivia",
+      "BH": "Bahrain",
+      "BI": "Burundi",
+      "BJ": "Benin",
+      "BT": "Bhutan",
+      "JM": "Jamaica",
+      "BV": "Bouvet Island",
+      "BW": "Botswana",
+      "WS": "Samoa",
+      "BQ": "Bonaire, Saint Eustatius and Saba ",
+      "BR": "Brazil",
+      "BS": "Bahamas",
+      "JE": "Jersey",
+      "BY": "Belarus",
+      "BZ": "Belize",
+      "RU": "Russia",
+      "RW": "Rwanda",
+      "RS": "Serbia",
+      "TL": "East Timor",
+      "RE": "Reunion",
+      "TM": "Turkmenistan",
+      "TJ": "Tajikistan",
+      "RO": "Romania",
+      "TK": "Tokelau",
+      "GW": "Guinea-Bissau",
+      "GU": "Guam",
+      "GT": "Guatemala",
+      "GS": "South Georgia and the South Sandwich Islands",
+      "GR": "Greece",
+      "GQ": "Equatorial Guinea",
+      "GP": "Guadeloupe",
+      "JP": "Japan",
+      "GY": "Guyana",
+      "GG": "Guernsey",
+      "GF": "French Guiana",
+      "GE": "Georgia",
+      "GD": "Grenada",
+      "GB": "United Kingdom",
+      "GA": "Gabon",
+      "SV": "El Salvador",
+      "GN": "Guinea",
+      "GM": "Gambia",
+      "GL": "Greenland",
+      "GI": "Gibraltar",
+      "GH": "Ghana",
+      "OM": "Oman",
+      "TN": "Tunisia",
+      "JO": "Jordan",
+      "HR": "Croatia",
+      "HT": "Haiti",
+      "HU": "Hungary",
+      "HK": "Hong Kong",
+      "HN": "Honduras",
+      "HM": "Heard Island and McDonald Islands",
+      "VE": "Venezuela",
+      "PR": "Puerto Rico",
+      "PS": "Palestinian Territory",
+      "PW": "Palau",
+      "PT": "Portugal",
+      "SJ": "Svalbard and Jan Mayen",
+      "PY": "Paraguay",
+      "IQ": "Iraq",
+      "PA": "Panama",
+      "PF": "French Polynesia",
+      "PG": "Papua New Guinea",
+      "PE": "Peru",
+      "PK": "Pakistan",
+      "PH": "Philippines",
+      "PN": "Pitcairn",
+      "PL": "Poland",
+      "PM": "Saint Pierre and Miquelon",
+      "ZM": "Zambia",
+      "EH": "Western Sahara",
+      "EE": "Estonia",
+      "EG": "Egypt",
+      "ZA": "South Africa",
+      "EC": "Ecuador",
+      "IT": "Italy",
+      "VN": "Vietnam",
+      "SB": "Solomon Islands",
+      "ET": "Ethiopia",
+      "SO": "Somalia",
+      "ZW": "Zimbabwe",
+      "SA": "Saudi Arabia",
+      "ES": "Spain",
+      "ER": "Eritrea",
+      "ME": "Montenegro",
+      "MD": "Moldova",
+      "MG": "Madagascar",
+      "MF": "Saint Martin",
+      "MA": "Morocco",
+      "MC": "Monaco",
+      "UZ": "Uzbekistan",
+      "MM": "Myanmar",
+      "ML": "Mali",
+      "MO": "Macao",
+      "MN": "Mongolia",
+      "MH": "Marshall Islands",
+      "MK": "Macedonia",
+      "MU": "Mauritius",
+      "MT": "Malta",
+      "MW": "Malawi",
+      "MV": "Maldives",
+      "MQ": "Martinique",
+      "MP": "Northern Mariana Islands",
+      "MS": "Montserrat",
+      "MR": "Mauritania",
+      "IM": "Isle of Man",
+      "UG": "Uganda",
+      "TZ": "Tanzania",
+      "MY": "Malaysia",
+      "MX": "Mexico",
+      "IL": "Israel",
+      "FR": "France",
+      "IO": "British Indian Ocean Territory",
+      "SH": "Saint Helena",
+      "FI": "Finland",
+      "FJ": "Fiji",
+      "FK": "Falkland Islands",
+      "FM": "Micronesia",
+      "FO": "Faroe Islands",
+      "NI": "Nicaragua",
+      "NL": "Netherlands",
+      "NO": "Norway",
+      "NA": "Namibia",
+      "VU": "Vanuatu",
+      "NC": "New Caledonia",
+      "NE": "Niger",
+      "NF": "Norfolk Island",
+      "NG": "Nigeria",
+      "NZ": "New Zealand",
+      "NP": "Nepal",
+      "NR": "Nauru",
+      "NU": "Niue",
+      "CK": "Cook Islands",
+      "XK": "Kosovo",
+      "CI": "Ivory Coast",
+      "CH": "Switzerland",
+      "CO": "Colombia",
+      "CN": "China",
+      "CM": "Cameroon",
+      "CL": "Chile",
+      "CC": "Cocos Islands",
+      "CA": "Canada",
+      "CG": "Republic of the Congo",
+      "CF": "Central African Republic",
+      "CD": "Democratic Republic of the Congo",
+      "CZ": "Czech Republic",
+      "CY": "Cyprus",
+      "CX": "Christmas Island",
+      "CR": "Costa Rica",
+      "CW": "Curacao",
+      "CV": "Cape Verde",
+      "CU": "Cuba",
+      "SZ": "Swaziland",
+      "SY": "Syria",
+      "SX": "Sint Maarten",
+      "KG": "Kyrgyzstan",
+      "KE": "Kenya",
+      "SS": "South Sudan",
+      "SR": "Suriname",
+      "KI": "Kiribati",
+      "KH": "Cambodia",
+      "KN": "Saint Kitts and Nevis",
+      "KM": "Comoros",
+      "ST": "Sao Tome and Principe",
+      "SK": "Slovakia",
+      "KR": "South Korea",
+      "SI": "Slovenia",
+      "KP": "North Korea",
+      "KW": "Kuwait",
+      "SN": "Senegal",
+      "SM": "San Marino",
+      "SL": "Sierra Leone",
+      "SC": "Seychelles",
+      "KZ": "Kazakhstan",
+      "KY": "Cayman Islands",
+      "SG": "Singapore",
+      "SE": "Sweden",
+      "SD": "Sudan",
+      "DO": "Dominican Republic",
+      "DM": "Dominica",
+      "DJ": "Djibouti",
+      "DK": "Denmark",
+      "VG": "British Virgin Islands",
+      "DE": "Germany",
+      "YE": "Yemen",
+      "DZ": "Algeria",
+      "US": "United States",
+      "UY": "Uruguay",
+      "YT": "Mayotte",
+      "UM": "United States Minor Outlying Islands",
+      "LB": "Lebanon",
+      "LC": "Saint Lucia",
+      "LA": "Laos",
+      "TV": "Tuvalu",
+      "TW": "Taiwan",
+      "TT": "Trinidad and Tobago",
+      "TR": "Turkey",
+      "LK": "Sri Lanka",
+      "LI": "Liechtenstein",
+      "LV": "Latvia",
+      "TO": "Tonga",
+      "LT": "Lithuania",
+      "LU": "Luxembourg",
+      "LR": "Liberia",
+      "LS": "Lesotho",
+      "TH": "Thailand",
+      "TF": "French Southern Territories",
+      "TG": "Togo",
+      "TD": "Chad",
+      "TC": "Turks and Caicos Islands",
+      "LY": "Libya",
+      "VA": "Vatican",
+      "VC": "Saint Vincent and the Grenadines",
+      "AE": "United Arab Emirates",
+      "AD": "Andorra",
+      "AG": "Antigua and Barbuda",
+      "AF": "Afghanistan",
+      "AI": "Anguilla",
+      "VI": "U.S. Virgin Islands",
+      "IS": "Iceland",
+      "IR": "Iran",
+      "AM": "Armenia",
+      "AL": "Albania",
+      "AO": "Angola",
+      "AQ": "Antarctica",
+      "AS": "American Samoa",
+      "AR": "Argentina",
+      "AU": "Australia",
+      "AT": "Austria",
+      "AW": "Aruba",
+      "IN": "India",
+      "AX": "Aland Islands",
+      "AZ": "Azerbaijan",
+      "IE": "Ireland",
+      "ID": "Indonesia",
+      "UA": "Ukraine",
+      "QA": "Qatar",
+      "MZ": "Mozambique"
+    },
+    "Settings": {
+      "Page": {
+        "Title": "General Settings",
+        "Description": "Here you can see and modify global organization information and locally enable experimental Watson IoT Platform features."
+      },
+      "Dialog": {
+        "Title": "Add A New Extension"
+      },
+      "ConfirmDelete": {
+        "Title": "Confirm Extension Removal"
+      },
+      "Sections": {
+        "Platform": "Platform",
+        "DataAndDevices": "Data and Devices",
+        "RiskManagement": "Risk Management"
+      },
+      "Items": {
+        "About": {
+          "Title": "About",
+          "Description": "The organization type sets the limits for the amount of data traffic your organization supports. An administrator for your Bluemix organization can choose a new plan from the Bluemix service page.",
+          "Content": {
+            "Fields": {
+              "DateCreated": "Date Created",
+              "OrganizationType": "Organization Type",
+              "GeographicLocation": "Geographic Location"
+            }
+          }
+        },
+        "Identity": {
+          "Title": "Identity",
+          "Description": "The organization ID and friendly name are the global identifiers of your organization.  Administrators can modify the global name.",
+          "Content": {
+            "Fields": {
+              "OrganizationID": "Organization ID",
+              "FriendlyName": "Friendly Name"
+            }
+          }
+        },
+        "Experimental": {
+          "Title": "Experimental Features",
+          "Description": "Experimental features let you test the latest and greatest Watson IoT Platform features in your local environment before they are available for general consumption. Be aware that experimental features might introduce unexpected behavior.",
+          "Content": {
+            "Fields": {
+              "Activate": "Activate Experimental Features",
+              "CurrentFeatures": "Current Features",
+              "LiWeatherCompanyVis": "*The Weather Company* visualization",
+              "LiCustomCards": "Custom Cards",
+              "RiskManagement": "Activate Risk Management Features"
+            }
+          }
+        },
+        "DeviceManagement": {
+          "Title": "Custom Device Management Packages",
+          "Description": "Custom device management packages can be uploaded to add new device management functions. Custom device management packages must consist of valid JSON in order to be successfully added. For more details see the",
+          "DescriptionLink": "custom device management package documentation",
+          "Content": {
+            "UploadErrorMessage": "Something has gone wrong while uploading your device management package. Please ensure that your package is valid JSON and try again or choose another package to upload.",
+            "ConflictErrorMessage": "A custom device management package with this bundle ID has already been added to your organization.",
+            "UploadSuccessDialogMessage": "Your package was uploaded successfully and is now available to your organization.",
+            "AddPackageButton": "Add Package",
+            "Table": {
+              "Headers": {
+                "Package": "Package",
+                "Version": "Version",
+                "Description": "Description"
+              },
+              "EmptyMessage": "You currently have no custom device management packages",
+              "EmptyLink": "Add a (JSON format) package"
+            }
+          }
+        }
+      }
+    },
+    "RiskManagement": {
+      "Certificates": {
+        "Common": {
+          "CommonName": "Common Name",
+          "Type": "Type",
+          "KeyType": "Key Type",
+          "IssuedBy": "Issued By",
+          "ValidFrom": "Valid From",
+          "ValidTo": "Valid To",
+          "SelectNewFile": "Select a file",
+          "OrDragYourFile": "Or drag your file into this window",
+          "OrDragYourFileHere": "Or drag your file here",
+          "BetaMessage": "Any server certificates that you upload directly or generate with a CSR during the Experimental period might be deleted when the period is done. Do not use production certificates during the Experimental period."
+        },
+        "Server": {
+          "Generate": {
+            "Generate": "Generate",
+            "Cancel": "Cancel",
+            "Save": "Save",
+            "Title": "Enter the details to request a certificate signing request (CSR) for your server. You can download the request and submit it to a certification authority. After you obtain a certificate, you can upload it in the Messaging Server Certificate section.",
+            "TitleLink": "Generate Certificate Signining Request.",
+            "CommonName": "Common Name",
+            "Organization": "Organization",
+            "OrganizationUnit": "Organization Unit",
+            "OrganizationalUnit": "Organizational Unit",
+            "CityLocality": "City/Locality",
+            "StateCountryRegion": "State/Country/Region",
+            "Country": "Country",
+            "Email": "Contact Email",
+            "JustEmail": "Email",
+            "PrivateKeyType": "Private Key Type",
+            "KeyType": "Key Type",
+            "CannotGenerate": "A CSR already exists for the server. Upload the certificate from the existing CSR, or delete the existing CSR and generate a new one."
+          },
+          "Description": "Select a server certificate to activate from the drop-down list or upload your own server certificate. The server certificate is used for server-side authentication on your IoTP domain. This certificate is used only for platform to device MQTT messaging. It is not used for REST API calls or for the desktop UI. If you don't have a certificate that is ready to use, you can generate a certificate signing request (CSR) to request a new certificate.",
+          "DescriptionInfo": "This certificate is used only for platform to device MQTT messaging. It is not used for REST API calls or for the desktop UI.",
+          "MessagingServerCertificates": "Messaging Server Certificates",
+          "CannotLoad": "Could not load the server certificates",
+          "ConfirmDeleteCertificate": "If you delete this certificate, the private key that is associated with it will be permanently deleted. Do you want to delete the certificate?",
+          "ConfirmDeleteCSR": "Are you sure you want to delete the selected CSR?",
+          "GenerateCSR": "Generate CSR",
+          "AddACertificate": "Add Certificate",
+          "DefaultCertificate": "Default certificate",
+          "CurrentlyCertificateLabel": "Currently Active Certificate",
+          "NoCertificates": "No certificates",
+          "DetailsTab": "Certificate Details",
+          "DownloadCSR": "Download CSR",
+          "CannotDeleteActiveCertificate": "You cannot delete the active certificate.",
+          "ChangeActiveCertificate": "Do you want to change the active certificate to {0} , which is valid to {1} and override the currently active certificate?",
+          "ChangeActiveCertificateToDefault": "Do you want to change the active certificate to the default certificate?"
+        },
+        "Client": {
+          "DropTitle": "Drag and drop your certificate file here to upload",
+          "DropDescription": "The following formats are accepted: .pem, .cer, .cert, and .crt.",
+          "NoCertificates": "No certificates",
+          "AddCertificate": "Add Certificate",
+          "ConfirmRemove": "Are you sure that you want to remove the selected certificates?",
+          "Description": "Upload a CA certificate which is used to authenticate the signature of client-side certificates. You can enforce TLS client authentication by",
+          "DescriptionLink": "configuring the Risk Management Connection Security policy.",
+          "UploadDialogDescription": "Select a certificate file to upload. The file can have only one certificate within it, and the dates of the certificate must be valid. Files that have extensions .pem, .cer, .cert, or .crt are accepted."
+        },
+        "Add": {
+          "Action": "Add Certificate",
+          "DescriptionUpload": "Select a PEM or CER file using the file upload control bellow and press Next",
+          "DescriptionComment": "Optionally add new comments",
+          "UploadCertificate": "Certificate File",
+          "TitleUpload": "Upload certificate",
+          "TitleComments": "Add comments",
+          "Preview": "Preview",
+          "Subject": "Subject",
+          "IssuedBy": "Issued By",
+          "IssuedTo": "Issued To",
+          "Purposes": "Purposes",
+          "ValidFrom": "Valid From",
+          "ValidTo": "Valid To",
+          "PublicKey": "Public Key",
+          "Comments": "Comments",
+          "CommentsOptional": "Comments (Optional)",
+          "Add": "Add"
+        },
+        "Errors": {
+          "EXCEED_LIMIT": "The selected file size exceeds the maximum limit of 100KBs",
+          "INVALID_CERTIFICATE": "The selected certificate file was not recognized",
+          "InternalError": "Internal error. The action could not be completed due to an internal error. Try the action again. If the error persists, contact your system administrator.",
+          "InvalidRequest": "Invalid Request",
+          "NotAuthorized": "That action is not authorized.",
+          "CannotDelete": "The certificate could not be deleted because it is the only certificate associated with the organization. You must disable certificate authentication for the organization before deleting this certificate.",
+          "InvalidOrExpiredCertificate":"The certificate is expired. Upload a valid certificate.",
+          "CSRNotFound": "The CSR was not found. Select another CSR.",
+          "CertificateNotFound": "The certificate was not found. Select another certificate.",
+          "DuplicateCSR": "This CSR already exists. You cannot duplicate a CSR.",
+          "DuplicateCertificate": "This certificate already exists. You cannot duplicate a certificate.",
+          "MoreThanOneCertificate": "This file contains more than one certificate. Upload a file that has only one certificate.",
+          "FileFormat": "The file format is invalid. Upload a file with the extension .pem, .cer, .cert, .crt, or .csr.",
+          "FileSize": "The selected file size exceeds the maximum limit of 100KBs.",
+          "InvalidInformation": "The file could not be imported. Some of the information in the file might be invalid.",
+          "NotAllowedToDelete": "Operation not allowed. Please disable the Certificates Authentication prior to remove the last certificate.",
+          "CUDAS0100E": "This certificate already exists. You cannot duplicate a certificate.",
+          "CUDAS0101E": "The certificate is expired. Upload a valid certificate.",
+          "CUDAS0102E": "The certificate could not be created because it contains invalid information.",
+          "CUDAS0103E": "The certificate could not be deleted because it is the only certificate associated with the organization. You must disable certificate authentication for the organization before deleting this certificate.",
+          "CUDAS0105E": "The certificate was not found. Select another certificate.",
+          "CUDAS0106E": "The certificate was not found. Select another certificate.",
+          "CUDAS0107E": "This certificate already exists. You cannot duplicate a certificate.",
+          "CUDAS0108E": "The certificate you provided is invalid.",
+          "CUDAS0109E": "You cannot delete the active certificate.",
+          "CUDAS0110E": "The server certificate could not be created because this private key is not associated with the certificate.",
+          "CUDAS0111E": "The certificate could not be created because the certificate algorithm is not supported.",
+          "CUDAS0112E": "The certificate could not be created because this key size is not supported.",
+          "CUDAS0113E": "The certificate could not be created because the common name is not valid. It must match the messaging server host name.",
+          "CUDAS0114E": "The certificate could not be created because the pass phrase is not correct.",
+          "CUDAS0115E": "The CSR could not be created because this key size is not supported.",
+          "CUDAS0116E": "This CSR already exists. You cannot duplicate a CSR.",
+          "DefaultCreateMessage": "Failed to create certificate.",
+          "DefaultDeleteMessage": "Failed to delete certificate.",
+          "DefaultRenameMessage": "Failed to rename certificate."
+        }
+      },
+      "Confirmation": {
+        "title": "Confirmation",
+        "yes": "Yes",
+        "cancel": "Cancel",
+        "saveNote": "Note: The change does not take effect until you click Save."
+      },
+      "Error": {
+        "title": "Error",
+        "close": "Close"
+      },
+      "Tabs": {
+        "policiesTab": "Policies"
+      },
+      "Policies": {
+        "title": "Policies",
+        "description": "You can configure policies to enhance connection security and control access to the server from devices. For more information, see Setting up security policies.",
+        "ConnectionSecurity":{
+          "policy":{
+            "name": "Connection Security",
+            "description": "Configure the security level for device connection."
+          },
+          "Settings":{
+            "title": "Default Connection Security",
+            "pageDescription": "Set the default security level that is applied to all devices. You can then add custom connection security for specific devices. For more information, see Setting up Connection Security.",
+            "sectionDescription": "Specify the default connection security level for devices. You can view the number of devices that are affected and the predicted level of compliance.",
+            "securityLevelLabel": "Default Security Level:",
+            "registeredDevicesLabel": "Registered Devices:",
+            "defaultCoverageLabel": "Devices in Default Security Level:",
+            "predictedComplianceLabel": "Predicted Compliance:",
+            "refreshComplianceLabel": "Refresh Compliance",
+            "loadingComplianceLabel": "Calculating",
+            "warningComplianceLabel": "Prediction expired. Please refresh compliance.",
+            "missingCertificateTitle": "Missing Certificate",
+            "missingCertificateWarning": {
+              "line1": "You cannot change the security level, because the platform does not have any registered CA certificates.",
+              "line2": "Contact your system administrator to request the setup of certificates. If you are an administrator who has the correct permissions, you can import certificates in the Risk Management section of the {0} page.",
+              "linkText": "General Settings"
+            }
+          },
+          "Exceptions":{
+            "title": "Custom Connection Security",
+            "description": "You can add custom connection security to apply different security level to specific devices. The predicted compliance value is updated to reflect the default settings and the custom settings. ",
+            "addExceptionLabel": "Add Custom Connection Security",
+            "addExceptionDisabledWarningLabel": "No available device types",
+            "emptyTableDescriptionText": {
+              "line1": "No custom connection security.",
+              "line2": "All connections are enforced by the default security setting."
+            },
+            "emptyTableActionText": "Add custom connection security",
+            "table":{
+              "headers":{
+                "deviceType": "Device Type",
+                "numberOfDevices": "Number of Devices",
+                "securityLevel": "Security Level",
+                "predictedCompliance": "Predicted Compliance"
+              }
+            }
+          },
+          "Compliance": {
+            "pass": "{0} Pass",
+            "fail": "{0} Fail",
+            "unknown": "{0} Unknown"
+          },
+          "SecurityLevel": {
+            "tls-optional": "TLS Optional",
+            "tls-token": "TLS With Token Authentication",
+            "tls-certificate": "TLS With Certificate Authentication",
+            "tls-token-certificate": "TLS With Certificate And Token Authentication"
+          },
+          "DeviceType": {
+            "placeholder": "Device Type"
+          }
+        },
+        "table":{
+          "deleteConfirm": "Are you sure you want to remove this entry?",
+          "deleteConfirmMultiple": "Are you sure you want to remove these entries?"
+        },
+        "labels":{
+          "enablePolicy": "Enable Policy",
+          "notSet": "Not Set",
+          "settings": "Configure",
+          "configuration": "Configure",
+          "enabled": "Enabled",
+          "disabled": "Disabled"
+        },
+        "Devices":{
+          "Table":{
+            "Headers":{
+              "deviceType": "Device Type",
+              "quantity": "Quantity"
+            }
+          }
+        },
+        "Settings": {
+          "back": "Back to Policies",
+          "cancel": "Cancel",
+          "save": "Save",
+          "discardChangesConfirm": "Your unsaved changes will be lost if you leave this page. Do you want to leave the page?"
+        },
+        "AccessControl": {
+          "Common": {
+            "table": {
+              "headers": {
+                "ipCountry": "IP/Country",
+                "comments": "Comments",
+                "dateAdded": "Date added"
+              }
+            }
+          },
+          "WHITELIST": {
+            "policy":{
+              "name": "Whitelist",
+              "description": "Allow access from specific IP addresses and countries. Activating a whitelist disables an active blacklist."
+            },
+            "title": "Whitelist",
+            "description": "Add a whitelist to allow access from specific IP addresses and countries. Activating a whitelist disables an active blacklist.",
+            "enabled": "Disable Whitelist",
+            "disabled": "Enable Whitelist",
+            "addButton": "Add to Whitelist",
+            "empty": {
+              "action": "Add to Whitelist",
+              "description": "You currently have no IP addresses or countries in your Whitelist"
+            },
+            "addDialog": {
+              "accessFrom": "Allow access from:",
+              "description": "Select specific IP addresses, ranges of IP addresses, or countries. Devices that have the specified IP addresses or that are in the specified countries are allowed access to the server."
+            },
+            "emptyTableTitle": "Empty Whitelist",
+            "emptyTableMessage": "You need to configure your Whitelist before enabling it.",
+            "switchConfirm": "Enabling this whitelist policy disables the blacklist policy that is in place. Do you want to enable the whitelist and disable the blacklist?"
+          },
+          "BLACKLIST": {
+            "policy":{
+              "name": "Blacklist",
+              "description": "Block access from specific IP addresses and countries. Activating a blacklist disables an active whitelist."
+            },
+            "title": "Blacklist",
+            "description": "Add a blacklist to block access from specific IP addresses and countries. Activating a blacklist disables an active whitelist.",
+            "enabled": "Disable Blacklist",
+            "disabled": "Enable Blacklist",
+            "addButton": "Add to Blacklist",
+            "empty": {
+              "action": "Add to Blacklist",
+              "description": "You currently have no IP addresses or countries in your Blacklist"
+            },
+            "addDialog": {
+              "accessFrom": "Block access from:",
+              "description": "Select specific IP addresses, ranges of IP addresses, or countries. Devices that have the specified IP addresses or that are in the specified countries are denied access to the server."
+            },
+            "emptyTableTitle": "Empty Blacklist",
+            "emptyTableMessage": "You need to configure your Blacklist before enabling it.",
+            "switchConfirm": "Enabling this blacklist policy disables the whitelist policy that is in place. Do you want to enable the blacklist and disable the whitelist?"
+          },
+          "addDialog": {
+            "save": "Add",
+            "ipRangeLabel": "IP Address/Range",
+            "ipRangePlaceholder": "Enter any valid IPv4 or IPv6 address or a range.",
+            "cidrLabel": "CIDR",
+            "cidrPlaceholder": "Enter any valid CIDR-notated block.",
+            "countryLabel": "Country",
+            "countryPlaceholder": "Start typing to search for a country.",
+            "commentLabel": "Comment (optional):",
+            "commentPlaceholder": "Enter a descriptive comment.",
+            "examples": "Examples:"
+          }
+        }
+      }
+    },
+    "Dashboard": {
+      "Wizard": {
+        "Cards": {
+          "CUST_DATASET_name": "Name",
+          "CUST_DATASET_event": "Event",
+          "CUST_DATASET_property": "Property",
+          "CUST_DATASET_type": "Type",
+          "CUST_DATASET_unit": "Unit",
+          "CUST_DATASET_minValue": "Min",
+          "CUST_DATASET_maxValue": "Max",
+          "CUST_DATASET_precision": "Precision",
+          "CUST_DATASET_add": "Connect new data set",
+          "CUST_DATASET_deviceType": "Device type",
+          "CUST_DATASET_any": "Any device type",
+          "NewDataSet": "New data set",
+          "SearchDataSource": "Search for data sources using the filter",
+          "DeviceID": "Device ID",
+          "DeviceType": "Device Type",
+          "Settings": "Settings",
+          "SourceData": "Card source data",
+          "SourceDataExpl": "Specify the data source for the card",
+          "ConnectDataSet": "Connect data set",
+          "AddPlot": "Add plot",
+          "NoSuitableCards": "No suitable source card in this board",
+          "CardType":"Card preview",
+          "CardTypeExpl":"Select the card size and specify additional information",
+          "CardSettings":"Card settings",
+          "CardSettingsExpl":"Set specific card settings",
+          "CardInformation":"Card information",
+          "CardInformationExpl":"Enter title and description of the card",
+          "CreateCard":"Create Card",
+          "EditCard":"Edit Card",
+          "Gallery":"Card type",
+          "GalleryExpl":"Select card type",
+          "LoadMore":"Load more",
+          "NoDataPointsDefined":"No data points defined",
+          "COMP_TITLE_DeviceTypes-CreateCard":"Create Device types Card",
+          "COMP_TITLE_UsageDevice-CreateCard":"Create Registered devices Card",
+          "COMP_TITLE_UsageData-CreateCard":"Create Data transferred Card",
+          "COMP_TITLE_UsageStorage-CreateCard":"Create Storage consumption Card",
+          "COMP_TITLE_HorizontalLine-CreateCard":"Create Separator",
+          "COMP_TITLE_GenericVis-CreateCard":"Create Generic visualisation Card",
+          "COMP_TITLE_RealTimeChart-CreateCard":"Create Line chart Card",
+          "COMP_TITLE_BarChart-CreateCard":"Create Bar chart Card",
+          "COMP_TITLE_DonutChart-CreateCard":"Create Donut chart Card",
+          "COMP_TITLE_Value-CreateCard":"Create Value Card",
+          "COMP_TITLE_Gauge-CreateCard":"Create Gauge Card",
+          "COMP_TITLE_DeviceMap-CreateCard":"Create Device map Card",
+          "COMP_TITLE_Webcam-CreateCard":"Create Webcam Card",
+          "COMP_TITLE_AdditionalInfo-CreateCard":"Create Device info Card",
+          "COMP_TITLE_DeviceList-CreateCard":"Create Device list Card",
+          "COMP_TITLE_DeviceAlerts-CreateCard":"Create Rule alerts Card",
+          "COMP_TITLE_DeviceValues-CreateCard":"Create Device Properties Card",
+          "COMP_TITLE_AllDeviceProperties-CreateCard":"Create All device properties Card",
+          "COMP_TITLE_FlexibleDeviceMap-CreateCard":"Create Flexible device map Card",
+          "COMP_TITLE_RuleBreakInfo-CreateCard":"Create Alert Info Card",
+          "COMP_TITLE_Rules-CreateCard":"Create Rules Card",
+          "COMP_TITLE_PolicyCompliance-CreateCard":"Create Policy Compliance Card",
+          "COMP_TITLE_Blacklist-CreateCard":"Create Blacklist Card",
+          "COMP_TITLE_ConnectionSecurityCreateCard":"Create Connection Security Card",
+          "COMP_TITLE_Transactions-CreateCard":"Create Blockchain Transactions Card",
+          "COMP_TITLE_DeviceTypes-EditCard":"Edit Device types Card",
+          "COMP_TITLE_UsageDevice-EditCard":"Edit Registered devices Card",
+          "COMP_TITLE_UsageData-EditCard":"Edit Data transferred Card",
+          "COMP_TITLE_UsageStorage-EditCard":"Edit Storage consumption Card",
+          "COMP_TITLE_HorizontalLine-EditCard":"Edit Separator",
+          "COMP_TITLE_GenericVis-EditCard":"Edit Generic visualisation Card",
+          "COMP_TITLE_RealTimeChart-EditCard":"Edit Line chart Card",
+          "COMP_TITLE_BarChart-EditCard":"Edit Bar chart Card",
+          "COMP_TITLE_DonutChart-EditCard":"Edit Donut chart Card",
+          "COMP_TITLE_Value-EditCard":"Edit Value Card",
+          "COMP_TITLE_Gauge-EditCard":"Edit Gauge Card",
+          "COMP_TITLE_DeviceMap-EditCard":"Edit Device map Card",
+          "COMP_TITLE_Webcam-EditCard":"Edit Webcam Card",
+          "COMP_TITLE_AdditionalInfo-EditCard":"Edit Device info Card",
+          "COMP_TITLE_DeviceList-EditCard":"Edit Device list Card",
+          "COMP_TITLE_DeviceAlerts-EditCard":"Edit Rule alerts Card",
+          "COMP_TITLE_DeviceValues-EditCard":"Edit Device Properties Card",
+          "COMP_TITLE_AllDeviceProperties-EditCard":"Edit All device properties Card",
+          "COMP_TITLE_FlexibleDeviceMap-EditCard":"Edit Flexible device map Card",
+          "COMP_TITLE_RuleBreakInfo-EditCard":"Edit Alert Info Card",
+          "COMP_TITLE_Rules-EditCard":"Edit Rules Card",
+          "COMP_TITLE_PolicyComplicane-EditCard":"Edit Policy Compliance Card",
+          "COMP_TITLE_Blacklist-EditCard":"Edit Blacklist Card",
+          "COMP_TITLE_ConnectionSecurity-EditCard":"Edit Connection Security Card",
+          "COMP_TITLE_Transactions-EditCard":"Edit Transactions Card",
+          "Device":{
+            "ID":"Device ID",
+            "Type":"Device Type"
+          },
+          "Card": {
+            "ID": "Card Name",
+            "Type": "Card Type"
+          },
+          "DataSourceOptional": {
+            "Expl1": "Subscribing this card to a data source (another card) will mean that its payload will always be filtered or controlled by what is selected in the source card (e.g only displaying devices for a rule chosen in a list or highlighting a device selected in a map). Don’t worry, this is optional.",
+            "Expl2": "If you want this card to be the driver and display everything that meets it criteria then you can simply set nothing or skip this step entirely.",
+            "Add": "Add  data source",
+            "Remove": "Remove data source"
+          },
+          "Warning": {
+            "NO_PLOTS_Title": "No data sets",
+            "NO_PLOTS_Expl": "You must specify at least one data set.",
+            "PROPERTY_MISSING_Title": "Property missing",
+            "PROPERTY_MISSING_Expl": "You must define a property name for each data set."
+          }
+        },
+        "Dashboard": {
+          "AddUserID": "add user ID",
+          "Copy": "Copy",
+          "CreateInfoDescription": "Provide a name and description for your new board.",
+          "CreateTitle": "Create a new board",
+          "DuplicateBoard": "Duplicate Board",
+          "DuplicateTitle": "Duplicate Board",
+          "EditInfoDescription": "Change the basic settings for this.",
+          "EditTitle": "Board settings",
+          "InfoBoardDescription": "Description",
+          "InfoBoardName": "Board name",
+          "InfoFavorite": "Favorite (this also adds this board to your navbar)",
+          "InformationTab": "Information",
+          "InfoLandingTab": "Make this board my landing page.",
+          "LeaveBoard": "Leave Board",
+          "MemberAddMembers": "Add Members:",
+          "MemberDuplicateUseCurrent": "Include all members from original board.",
+          "MemberListHeaderEditor": "Editor?",
+          "MemberListHeaderName": "Name",
+          "MemberShareAll": "Share as read-only with everyone?",
+          "MembersTab": "Members",
+          "MemberTabDescription": "Adding viewers allows them to see your dashboard.",
+          "Owner": "Owner",
+          "You": "YOU",
+          "EmptyBoard": {
+            "Text": "You currently have an empty board",
+            "Begin": "Begin by {0}",
+            "Action": "adding a card"
+          }
+        }
+      },
+      "DefaultBoards": {
+        "UsageOverviewTitle": "Usage Overview",
+        "UsageOverviewDesc": "Default board to show usage statistics.",
+        "DeviceTypes": "Device types",
+        "DataTransferred": "Data transferred"
+      },
+      "Usage": {
+        "ThisMonth": "This month",
+        "PreviousMonth": "Previous month",
+        "Time": "Time",
+        "Value": "Value",
+        "DevicesNow": "Currently registered",
+        "DevicesThisMonth": "This month (daily average)",
+        "DevicesPreviousMonth": "Previous month (daily average)",
+        "DevicesConnected": "Devices connected",
+        "StorageToday": "Storage used today",
+        "StorageUsed": "Storage used",
+        "DataToday": "Data transferred today",
+        "DataConsumed": "Data transferred",
+        "DeviceTypeLegendTitle": "Types",
+        "DeviceTypesTitle": "registered devices",
+        "Other": "Other",
+        "MB": "MB"
+      },
+      "DeviceMap": {
+        "LngProperty": "Longitude property name",
+        "LatProperty": "Latitude property name",
+        "MaxZoom": "Maximum zoom level",
+        "MapType": "Map type",
+        "ShowMyLocation": "Show my location",
+        "ZoomHouse": "House",
+        "ZoomStreet": "Street",
+        "ZoomCity": "City",
+        "ZoomArea": "Area",
+        "ZoomCountry": "Country",
+        "ZoomContinent": "Continent",
+        "ZoomWorld": "World",
+        "MapRoad": "Road",
+        "MapAerial": "Aerial",
+        "MapHybrid": "Hybrid"
+      },
+      "Deprecated": {
+        "Oops": "Oops...",
+        "MoreInformation": "More Information",
+        "NoLongerAvailable": "This card is no longer supported by Watson IoT Platform due to recent changes.",
+        "RemoveCard": "Remove Card"
+      },
+      "RiskManagement": {
+        "PolicyCompliance": {
+          "ConnectionSecurity": "Connection Security",
+          "Blacklist": "Blacklist",
+          "Whitelist": "Whitelist",
+          "notAvailable": "N/A",
+          "passed": "Pass",
+          "failed": "Fail",
+          "unknown": "Unknown",
+          "summary": "{0} Pass; {1} Fail; {2} Unknown",
+          "summaryBlacklist": "{0} Pass; {1} Blocked; {2} Unknown",
+          "devicesFailed": "{0} Devices fail",
+          "devicesPassed": "{0} Devices pass",
+          "devicesBlocked": "{0} Devices are blocked",
+          "devicesUnknown": "{0} Devices are unknown",
+          "calculating": "{0} % (Calculating... {1} %)",
+          "calculatingTitle": "{0} (Calculating... {1} %)",
+          "percentageTitle": "{0} ({1} %)",
+          "plainValue": "{0} %"
+        },
+        "Blacklist": {
+          "devicesBlocked": "Devices are blocked",
+          "title": "Blacklist Compliance"
+        },
+        "Whitelist": {
+          "devicesPassed": "Devices have passed",
+          "title": "Whitelist Compliance"
+        },
+        "ConnectionSecurity": {
+          "title": "Connection Security Policy",
+          "devicesFailed": "Devices fail to comply",
+          "nonCompliantDevices1": "non-compliant",
+          "nonCompliantDevices2": "devices",
+          "other": "Other"
+        },
+        "DefaultBoards": {
+          "Title": "Risk and Security Overview",
+          "Desc": "Security policy and Blockchain related cards",
+          "Blacklist": "Blacklist/Whitelist Compliance",
+          "Transactions": "Blockchain Transactions",
+          "PolicyCompliance": "Policy Compliance",
+          "ConnectionSecurity": "Connection Security"
+        }
+      },
+      "Blockchain": {
+        "notAvailable": "N/A",
+        "MB": "{0} MB",
+        "Transactions": {
+          "TransactionsToday": "Blockchain transactions today",
+          "MessagesToday": "Data transferred today",
+          "TransactionsWeek": "Transactions this week",
+          "MessagesWeek": "Data transferred this week"
+        }
+      },
+      "RTI": {
+        "AlertStore": {
+          "DeletedAction": "deleted action",
+          "DeletedRule": "deleted rule"
+        },
+        "DeviceAlerts": {
+          "Critical": "Critical",
+          "High": "High",
+          "Low": "Low",
+          "Medium": "Medium"
+        },
+        "DeviceList": {
+          "Yes": "Yes",
+          "No": "No",
+          "AddedOn": "Added {0} on {1}",
+          "deviceId": "Device ID",
+          "typeId": "Device type",
+          "alert": "Alert",
+          "clientId": "Client ID",
+          "dateAdded": "Date Added",
+          "addedBy": "Added By",
+          "action": "Actions",
+          "DevicesIncluded": "Devices Included",
+          "DeviceType": "Device Type",
+          "WithRuleBreaksOnly": "With rule alerts only",
+          "EnterIDs": "Enter IDs or ranges (x-x) comma separated",
+          "serialNumber": "Serial Number",
+          "manufacturer": "Manufacturer",
+          "model": "Model",
+          "deviceClass": "Class",
+          "description": "Description",
+          "fwVersion": "Firmware Version",
+          "hwVersion": "Hardware Version",
+          "descriptiveLocation": "Descriptive Location"
+        },
+        "DeviceMap": {
+          "DatapointLng": "Data point for longitude property",
+          "DatapointLat": "Data point for latitude property"
+        },
+        "RuleBreakLog": {
+          "Triggered": "triggered",
+          "ShowPriority": "Show rule priority controls on card (Allows you to change from there).",
+          "DontShowPriority": "Don’t show priority controls (use this if they are already on the source card)!",
+          "LastMinute": "Last 60 seconds",
+          "LastHour": "Last 60 minutes",
+          "LastDay": "Last 24 hours",
+          "LastWeek": "Last 7 days",
+          "LastMonth": "Last 30 days",
+          "CriticalAt": "Critical alert at",
+          "HighAt": "High alert at",
+          "LowAt": "Low alert at",
+          "MediumAt": "Medium alert at",
+          "On": "on"
+        },
+        "RuleCard": {
+          "Alert": "Alert",
+          "Alerts": "Alerts",
+          "LastTriggered": "Last triggered",
+          "RuleAt": "rule at"
+        },
+        "RuleBreakInfo": {
+          "RuleName": "Rule name",
+          "Description": "Description",
+          "Message": "Message",
+          "Conditions": "Conditions",
+          "Severity": "Severity",
+          "Time": "Time",
+          "Actions": "Actions",
+          "DeviceID": "Device ID",
+          "DeviceType": "Device type",
+          "Action": "Action",
+          "SelectAlert": "Select an alert",
+          "ListedInformation": "Listed information"
+        },
+        "DeviceInfo": {
+          "ListedInformation": "Listed information",
+          "DeviceID": "Device ID",
+          "DeviceType": "Device type",
+          "ClientID": "Client ID",
+          "Creator": "Creator",
+          "Time": "Time created",
+          "Alerts": "Alerts",
+          "DeviceName": "Device name",
+          "SelectDevice": "Select a device"
+        },
+        "DeviceValues": {
+          "DeviceName": "Device name",
+          "Now": "now",
+          "Seconds": "{0} seconds ago",
+          "Minute": "{0} minute ago",
+          "Minutes": "{0} minutes ago",
+          "Hour": "{0} hour ago",
+          "Hours": "{0} hours ago"
+        },
+        "Placeholder": {
+          "NoAlerts": "No alerts to show",
+          "NoDevices": "No devices to show",
+          "NoRules": "No Rules to show",
+          "NoDevicesExpl": "Select another device, check the filters applied to this list or {0}.",
+          "NoRulesExpl": "Select another rule, check the filters applied to this list or {0}.",
+          "NoDevicesAction": "add a new device",
+          "NoRulesAction": "create a new rule"
+        },
+        "DefaultBoards": {
+          "DeviceCentricTitle": "Device-Centric Analytics",
+          "DeviceCentricDesc": "Device-centric default board to show analytics information.",
+          "RuleCentricTitle": "Rule-Centric Analytics",
+          "RuleCentricDesc": "Rule-centric default board to show analytics information.",
+          "DeviceProperties": "Device Properties",
+          "RuleAlertInfo": "Rule Alert Info",
+          "AssociatedDevices": "Associated Devices",
+          "RuleAlerts": "Rule Alerts",
+          "DeviceInfo": "Device Info",
+          "RulesIManage": "Rules with Alerts",
+          "DevicesICareAbout": "Devices I Care About",
+          "RulesAlertsForThatDevice": "Rule Alerts For That Device"
+        }
+      },
+      "Webcam": {
+        "WebcamURL": "Webcam URL",
+        "SourceSelect": "Select source",
+        "RefreshRate": "Refresh rate",
+        "Seconds_1": "1 second",
+        "Seconds_5": "5 seconds",
+        "Seconds_10": "10 seconds",
+        "Seconds_15": "15 seconds",
+        "Seconds_30": "30 seconds",
+        "Seconds_60": "60 seconds"
+      },
+      "DBGallery": {
+        "NoCards": "No cards",
+        "Card": "{0} Card",
+        "Cards": "{0} Cards",
+        "OwnedBy": "Owned by {0}",
+        "OwnedByYou": "Owned by you",
+        "SharedBoards": "Shared with you",
+        "PublicBoards": "Public boards",
+        "YourBoards": "Your boards",
+        "SortBy": "Sort By",
+        "RecentlyChanged": "Recently changed",
+        "Favorites": "Favorites",
+        "Name": "Name"
+      },
+      "Cards": {
+        "Gallery": {
+          "Usage": "Usage",
+          "Devices": "Devices",
+          "Cards": "Cards",
+          "Basic": "Basic",
+          "Analytics": "Analytics",
+          "Experimental": "Experimental",
+          "Samples": "Samples",
+          "Development": "Development",
+          "Demo": "Demo",
+          "Maintenance": "Maintenance",
+          "Miscellaneous": "Miscellaneous",
+          "RiskManagement": "Risk Management",
+          "Blockchain": "Blockchain",
+          "COMP_TITLE_DeviceTypes":"Device types",
+          "COMP_DESC_DeviceTypes":"A pie chart to display number of devices per device type",
+          "COMP_TITLE_UsageDevice":"Registered devices",
+          "COMP_DESC_UsageDevice":"Usage statistic for registered charts",
+          "COMP_TITLE_UsageData":"Data transferred",
+          "COMP_DESC_UsageData":"Usage statistic for data transfer",
+          "COMP_TITLE_UsageStorage":"Storage consumption",
+          "COMP_DESC_UsageStorage":"Usage statistic for storage consumption",
+          "COMP_TITLE_HorizontalLine":"Separator",
+          "COMP_DESC_HorizontalLine":"A horizontal separator to structure and group the dashboard",
+          "COMP_TITLE_GenericVis":"Generic visualisation",
+          "COMP_DESC_GenericVis":"Choose your datapoints first and the specific visualisation later",
+          "COMP_TITLE_RealTimeChart":"Line chart",
+          "COMP_DESC_RealTimeChart":"A line chart to display time series information with historic and live data",
+          "COMP_TITLE_BarChart":"Bar chart",
+          "COMP_DESC_BarChart":"Horizontal or vertical bar chart to display the current value of data points",
+          "COMP_TITLE_DonutChart":"Donut chart",
+          "COMP_DESC_DonutChart":"Donut chart to visualize the proportion data points",
+          "COMP_TITLE_Value":"Value",
+          "COMP_DESC_Value":"Display the value of one or more data points as text, table or chart",
+          "COMP_TITLE_Gauge":"Gauge",
+          "COMP_DESC_Gauge":"Visualizes the value of a single data point in a range",
+          "COMP_TITLE_DeviceMap":"Device map",
+          "COMP_DESC_DeviceMap":"Shows the position of one or more devices in a map",
+          "COMP_TITLE_Webcam":"Webcam",
+          "COMP_DESC_Webcam":"Shows a streaming image of a private or public webcam",
+          "COMP_TITLE_AdditionalInfo":"Device info",
+          "COMP_DESC_AdditionalInfo":"Shows basic information of a single device",
+          "COMP_TITLE_DeviceList":"Device list",
+          "COMP_DESC_DeviceList":"List to monitor multiple devices",
+          "COMP_TITLE_DeviceAlerts":"Rule alerts",
+          "COMP_DESC_DeviceAlerts":"List to monitor rule alerts of a device",
+          "COMP_TITLE_DeviceValues":"Device Properties",
+          "COMP_DESC_DeviceValues":"Shows specific properties of one or more devices",
+          "COMP_TITLE_AllDeviceProperties":"All device properties",
+          "COMP_DESC_AllDeviceProperties":"Shows all properties of one or more devices",
+          "COMP_TITLE_FlexibleDeviceMap":"Flexible device map",
+          "COMP_DESC_FlexibleDeviceMap":"Flexible device map to show the position of multiple devices in a list",
+          "COMP_TITLE_RuleBreakInfo":"Alert Info",
+          "COMP_DESC_RuleBreakInfo":"Shows basic information of a single rule break",
+          "COMP_TITLE_Rules":"Rules",
+          "COMP_DESC_Rules":"List to monitor broken rules",
+          "COMP_TITLE_PolicyCompliance":"Policy Compliance",
+          "COMP_DESC_PolicyCompliance":"Shows an overview of connection security, blacklisted and whitellisted devices",
+          "COMP_TITLE_Blacklist":"Blacklist/Whitelist Compliance",
+          "COMP_DESC_Blacklist":"Shows the number of blacklisted or whitelisted devices",
+          "COMP_TITLE_ConnectionSecurity":"Connection Security Compliance",
+          "COMP_DESC_ConnectionSecurity":"Shows the number of devices which failed the connection security check",
+          "COMP_TITLE_Transactions":"Blockchain Transactions",
+          "COMP_DESC_Transactions":"Shows an the Blockchain transactions per day and week"
+        },
+        "Customization":{
+          "Horizontal":"Horizontal",
+          "DataPoint":"Data point",
+          "LowerThreshold":"Lower threshold",
+          "UpperThreshold":"Upper threshold",
+          "Middle":"Middle",
+          "KeepDataFor":"Window size",
+          "Stacked":"Stacked",
+          "Steps":"Steps",
+          "EnableAutoscroll":"Enable autoscroll",
+          "ShowOverview":"Show overview",
+          "Value":"Value",
+          "YES":"Yes",
+          "NO":"No",
+          "Next":"Next",
+          "Back":"Back",
+          "Select":"Select",
+          "Submit":"Submit",
+          "ChangeType":"Change type",
+          "Remove":"Remove",
+          "Cancel":"Cancel",
+          "Save":"Save",
+          "Create":"Create",
+          "CardTitle":"Title",
+          "CardDescription":"Description",
+          "DashboardTitle":"Dashboard title",
+          "ColorScheme":"Color scheme",
+          "Color":"Color",
+          "Target":"Target",
+          "MinValue":"Minimum value",
+          "MaxValue":"Maximum value",
+          "MinDegree":"Minimum degree",
+          "MaxDegree":"Maximum degree",
+          "Precision":"Precision",
+          "Unit":"Unit",
+          "CreateDashboardPage_TITLE":"Create a new dashboard",
+          "CreateDashboardPage_DESC":"Specify a name for the new dashboard. You can add cards to the dashboard after it has been created.",
+          "NoOptionsFound":"No matching options",
+          "ShowLess":"Show Less",
+          "ShowMore":"Show More",
+          "Minute":"minute",
+          "Minutes":"minutes",
+          "Seconds":"seconds",
+          "Hour": "hour",
+          "Hours": "hours",
+          "UnitDevice":"device",
+          "UnitDevices":"devices",
+          "TotalHeading":"Total",
+          "Loading":"Loading",
+          "NoDataPoint":"No data point defined.",
+          "NoMessages":"No messages for the specified data point(s) received.",
+          "NoData":"No data received. Check if the service is accessible.",
+          "NoVisualization":"No visualization being received from external card server.",
+          "type_string":"Text",
+          "type_int":"Number",
+          "type_float":"Float",
+          "type_boolean":"Boolean",
+          "THRESHOLD_TO":"to",
+          "THRESHOLD_NONE":"n/a",
+          "THRESHOLD_GOOD":"good",
+          "THRESHOLD_FAIR":"fair",
+          "THRESHOLD_CRITICAL":"critical",
+          "ThresholdIs": "Threshold is",
+          "CloudantInstance": "Cloudant instance",
+          "CloudantUser": "Cloudant user",
+          "CloudantPassword": "Cloudant passwod"
+        },
+        "Content": {
+          "SUN": "Sunday",
+          "MON": "Monday",
+          "TUE": "Tuesday",
+          "WED": "Wednesday",
+          "THU": "Thursday",
+          "FRI": "Friday",
+          "SAT": "Saturday",
+          "High": "High",
+          "Low": "Low",
+          "NoDevicesAdded": "No devices have been added.",
+          "AddDevice": "Add Device",
+          "Copied": "Copied!"
+        }
+      },
+      "Dialogs": {
+        "DeleteBoard": {
+          "ConfirmDelete": "Remove Board",
+          "QuestionBeforeDelete": "Do you really want to remove the board and all its cards?"
+        },
+        "LeaveBoard": {
+          "ConfirmLeave": "Leave Board",
+          "QuestionBeforeLeave": "Do you really want to leave the board?"
+        },
+        "UniqueBoardName": {
+          "IgnoreAndCreate": "Yes",
+          "QuestionBeforeIgnore": "You already have access to a board with this name. Do you still want to create the board?"
+        },
+        "BoardConflict": {
+          "Title": "Conflict",
+          "User": "User ",
+          "Text": " has edited the board since you began making changes also and has created a conflict between their version and yours. You can:",
+          "Option1": "Abandon your changes and load the changes made by the other user.",
+          "Option2": "Create a new board that is a copy of this one, with your changes implemented.",
+          "Option3": "Overwrite the other changes (other user will recieve this message if on this board, if not your changes will replace theirs).",
+          "Button1": "Abandon Changes",
+          "Button2": "Create New Board",
+          "Button3": "Overwrite"
+        },
+        "UnauthorizedAccess": {
+          "Title": "You do not have access",
+          "Text": "You do not have the required privileges to perform the action. Log out and then back in again, and then try the action again. If the error persists, contact your system administrator to verify that your privileges are set correctly."
+        }
+      }
+    },
+    "Extensions": {
+      "Page": {
+        "Title": "Extensions",
+        "Description": "Extensions are optional service integrations which can be added to your Watson IoT Platform to provide additional functions or integrate with third-party services.",
+        "AddButton": "Add Extension",
+        "RemoveExtensionButton": "Remove this extension"
+      },
+      "Dialog": {
+        "Title": "Add A New Extension"
+      },
+      "ConfirmDelete": {
+        "Title": "Confirm Extension Removal"
+      },
+      "Items": {
+        "Jasper": {
+          "Title": "Jasper",
+          "Description": "A service to link Jasper SIMs to devices",
+          "Detail": {
+            "Title": "Configure Jasper Service",
+            "Description": "The Jasper extension allows you to access data and send commands to devices connected to your Jasper service.",
+            "ConfirmDelete": "You're about to delete this extension! Deleting this extension will prevent you accessing data from Jasper. Are you sure you want to do this?",
+            "Fields": {
+              "Username": {
+                "Label": "Username",
+                "Tooltip": "This field is your Jasper username which is used to connect to the Jasper service."
+              },
+              "Password": {
+                "Label": "Password",
+                "Tooltip": "This field is your Jasper password which is used to connect to the Jasper service."
+              },
+              "LicenseKey": {
+                "Label": "License Key",
+                "Tooltip": "The license key for your Jasper service must be retrieved and entered in order to connect to the Jasper service."
+              },
+              "EndpointUrl": {
+                "Label": "Endpoint URL",
+                "Tooltip": "The endpoint URL is the address which the extension will connect to."
+              }
+            }
+          }
+        },
+        "Orange": {
+          "Title": "Orange",
+          "Description": "A service to link Orange Malima information to platform devices",
+          "Detail": {
+            "Title": "Configure Orange Service",
+            "Description": "The Orange extension allows integration with your Orange Malima service.",
+            "ConfirmDelete": "You're about to delete this extension! Deleting this extension will prevent you accessing data from Orange. Are you sure you want to do this?",
+            "Fields": {
+              "Username": {
+                "Label": "Username",
+                "Tooltip": "This field is your unique username for the Orange Malima service."
+              },
+              "Password": {
+                "Label": "Password",
+                "Tooltip": "This field is your password for the Orange Malima service."
+              }
+            }
+          }
+        },
+        "ATNT": {
+          "Title": "AT&T",
+          "Description": "The AT&T extension makes SIM data available within your Watson IoT Platform organization.",
+          "Detail": {
+            "Title": "Configure AT&T Service",
+            "Description": "The AT&T service must be configured to connect your AT&T devices with your Watson IoT Platform organization.",
+            "ConfirmDelete": "You're about to delete this extension! Deleting this extension will prevent you accessing data from AT&T. Are you sure you want to do this?",
+            "Fields": {
+              "Username": {
+                "Label": "Username",
+                "Tooltip": "This field is your AT&T username which is used to connect to the AT&T service."
+              },
+              "Password": {
+                "Label": "Password",
+                "Tooltip": "This field is your AT&T password which is used to connect to the AT&T service."
+              },
+              "LicenseKey": {
+                "Label": "License Key",
+                "Tooltip": "The license key for your AT&T service must be retrieved and entered in order to connect to the AT&T service."
+              },
+              "EndpointUrl": {
+                "Label": "Endpoint URL",
+                "Tooltip": "The endpoint URL is the address which the extension will connect to."
+              }
+            }
+          }
+        },
+        "CustomCards": {
+          "Title": "Custom Cards",
+          "Description": "Load additional dashboard cards from an external cards server.",
+          "Detail": {
+            "Title": "Configure Custom Cards",
+            "Description": "Specify a path to an external card server.",
+            "DescriptionLong": "Use custom cards to visualize your IoT data beyond the generic cards that are provided with Watson IoT Platform. Connect to a custom cards server to enable the cards stored in its repository in your boards. For more information, see {0}. For sample card templates, see {1}.",
+            "DescrLinkDocs": "Custom cards in the product documentation",
+            "LinkDocs": "https://console.ng.bluemix.net/docs/services/IoT/custom_cards/custom-cards.html",
+            "DescrLinkGit": "the Custom cards repository on GitHub",
+            "LinkGit": "https://github.com/ibm-watson-iot/custom-cards",
+            "ConfirmDelete": "Removing this extension will remove your connection to the custom card servers and you will no longer be able to use custom cards in your organisation. Are you sure you wish to continue?",
+            "NonEmptyAddLink": "+ Add a custom cards server",
+            "Dialog":{
+              "Title": "Add Custom Cards Server",
+              "TitleEdit": "Edit Custom Cards Server",
+              "Description": "Enter the secure URL of a custom cards server and then retrieve the security certificate to secure the connection. {0}Tip{1}: To test the custom cards feature, use the sample server at:",
+              "SampleServer": "https://customcards.mybluemix.net",
+              "Warning": {
+                  "Title": "Warning!",
+                  "DetailReviewCert": "There are no restrictions placed on the JavaScript code that you choose to deploy in your cards on your custom cards server. Javascript code in custom cards has access to all information held in the browser. For this reason it is very important to be sure that the correct custom card server is supplying the code to the browser.",
+                  "DetailOwnRisk": "If the server is located behind a firewall no credentials can be received. The user can decide to use this server at own risk.",
+                  "DetailNotReachable": "The provided server could not be reached. Please check your connection and server status.",
+                  "LinkText": "Read more here!",
+                  "LinkUrl": "https://console.ng.bluemix.net/docs/services/IoT/custom_cards/custom-cards.html",
+                  "ReviewData": "Please review the details you are about to submit:"
+                }
+            },
+            "Fields": {
+              "Server": {
+                "Label": "Server URL",
+                "Tooltip": "Only https connections are supported for security reasons."
+              },
+              "RetrieveCertificate":{
+                "Label": "Retrieve Certificate"
+              },
+              "CertIssuer": {
+                "Label": "Certificate Issuer",
+                "NotRetrievable": "Certificate could not be retrieved."
+              },
+              "Subject": {
+                "Label": "Subject",
+                "NotRetrievable": "-"
+              }
+            },
+            "Table": {
+              "ServerUrl": "Server URL",
+              "CertIssuer": "Certificate Issuer",
+              "Subject": "Subject",
+              "EmptyAddLink": "Add a custom cards server",
+              "EmptyMessage": "There are currently no custom cards servers connected to this organization."
+            }
+          }
+        },
+        "ARMConnector": {
+          "Title": "ARM mbed Connector",
+          "Description": "This integration enables ARM mbed Connector devices to integrate with IBM's Watson IoT Platform and exchange messages bi-directionally.",
+          "Detail": {
+            "Title": "Configure ARM mbed Connector",
+            "Description": "This integration enables ARM mbed Connector devices to integrate with IBM's Watson IoT Platform and exchange messages bi-directionally. To enable this integration, you first need to create a {0} and then provide the requested connection information to your Watson IoT configuration.",
+            "Account": "mbed Connector account here",
+            "ConnectionCheck": "Check Connection",
+            "ConnectionSuccess": "Connection Established",
+            "ConnectionFailure": "Error trying to connect. Retry?",
+            "ConfirmDelete": "You're about to delete ARM mbed Connector extension!. Are you sure you want to do this?",
+            "Fields": {
+              "AccessKey": {
+                "Label": "Access Key",
+                "Tooltip": "This is Access Key registered with ARM mbed Connector."
+              },
+              "DomainId": {
+                "Label": "Domain Id",
+                "Tooltip": "This is Domain Id registered with ARM mbed Connector."
+              }
+            }
+          }
+        },
+        "Email": {
+          "Title": "Email",
+          "Description": "The email extension configures options for the SendGrid and SMTP user invitation methods.",
+          "Detail": {
+            "Title": "Configure Email Service",
+            "DescriptionAll": "Configuration options for the email user invitation include using SendGrid via username, SendGrid via API or SMTP to manage email invitations.",
+            "DescriptionSMTPOnly": "Configuration options for the email user invitation include using SMTP.",
+            "ConfirmDelete": "You are about to delete the email extension. Deleting this extension will remove the capability to add users to your Watson IoT Platform organization using email invitations. Are you sure you want to delete this extension?",
+            "Fields": {
+              "InvitationMethod": {
+                "Label": "Invitation Method",
+                "Tooltip": "The invitation method defines the method the extension will send use to validate and send your email invitations.",
+                "Values": {
+                  "SendGridUsername": "SendGrid with username",
+                  "SendGridAPIKey": "SendGrid with API key",
+                  "SMTP": "SMTP"
+                }
+              },
+              "Name": {
+                "Label": "Name",
+                "Tooltip": "The name of the system administrator that users will be advised to contact in the event that they request higher levels of access."
+              },
+              "Email": {
+                "Label": "Email",
+                "Tooltip": "The email address of the system administrator that users will be advised to contact in the event that they request higher levels of access."
+              },
+              "APIKey": {
+                "Label": "API key",
+                "Tooltip": "The SendGrid API key used for your API-based connection to SendGrid."
+              },
+              "Username": {
+                "Label": "Username",
+                "Tooltip": "The SendGrid or SMTP service username which is used to access your SendGrid or other SMTP service."
+              },
+              "Password": {
+                "Label": "Password",
+                "Tooltip": "The SendGrid or SMTP service password which is used to access your SendGrid or other SMTP service."
+              },
+              "Hostname": {
+                "Label": "Hostname",
+                "Tooltip": "The hostname is the domain name used for configuring an SMTP email service."
+              },
+              "Port": {
+                "Label": "Port",
+                "Tooltip": "The port number for your SMTP service."
+              },
+              "TLS": {
+                "Label": "TLS",
+                "Tooltip": "Transport Layer Security (TLS) can be enabled or disabled for your email service."
+              },
+              "SSL": {
+                "Label": "SSL",
+                "Tooltip": "Secure Sockets Layer (SSL) can be enabled or disabled for your email service."
+              }
+            }
+          }
+        },
+        "SSO": {
+          "Title": "Single Sign On",
+          "Description": "The Single Sign On (SSO) extension allows additional authentication options to be enabled.",
+          "Detail": {
+            "Title": "Configure SSO Service",
+            "Description": "Configure your Single Sign On (SSO) service to extend the options for authenticating users.",
+            "ConfirmDelete": "You're about to delete this extension! Deleting this extension will prevent you using SSO for user authentication. Are you sure you want to do this?",
+            "Fields": {
+              "ClientID": {
+                "Label": "Client ID",
+                "Tooltip": "This field is the OAuth 2.0 client ID parameter."
+              },
+              "ClientSecret": {
+                "Label": "Client Secret",
+                "Tooltip": "The client secret is an OAuth 2.0 parameter used to authenticate client requests."
+              },
+              "IssuerIdentifier": {
+                "Label": "Issuer Identifier",
+                "Tooltip": "The issuer identifier is an Open ID Connect parameter which is an HTTPS URL which identifies the issuer of your authentication service."
+              }
+            }
+          }
+        },
+        "Storage": {
+          "Title": "Historical Data Storage",
+          "Description": "The historical data storage extension finds and configures compatible services that can be used to store your IoT device data. You must be logged in to Bluemix in order to complete this operation.",
+          "DetailSelectService": {
+            "Title": "Configure Historical Data Storage",
+            "BluemixWarning": "To bind a service for historical data storage, you must be logged in to Bluemix from this browser session.",
+            "Description": "Available services in this Bluemix space for Historical Data Storage",
+            "NoServices": "There are no available services in the same Bluemix space that can be used for Historical Data Storage. Please deploy a relevant storage service to see it here.",
+            "NoServicesLink": "Find out more"
+          },
+          "DetailCloudant": {
+            "Title": "Configure Service: {0}",
+            "ViewTitle": "Service Details: {0}",
+            "Description": "Cloudant databases can be connected for historical data storage. To connect and configure a Cloudant database you must select a bucket interval, timezone, and database name.",
+            "PopupWarning": "When you click Done we'll open a popup to authorize connecting the Cloudant service to your Watson IoT Platform service. If you block popups, something might go wrong here.",
+            "ConfirmDelete": "You're about to delete this extension! Deleting this extension will delete cloudant configuration options and will prevent historical data storage. Are you sure you want to do this?",
+            "Fields": {
+              "BucketInterval": {
+                "Label": "Bucket Interval",
+                "Tooltip": "The bucket interval defines how frequently data should be sent to a new database. For example, a daily bucket interval will cause data to be separated each day."
+              },
+              "TimeZone": {
+                "Label": "Time Zone",
+                "Tooltip": "The timezone is used to define precisely when the new bucket interval period begins. For example, a new daily bucket interval begins at midnight in the selected timezone."
+              },
+              "DatabaseName": {
+                "Label": "Database Name",
+                "Tooltip": "The database name affects a part of the database naming scheme. The database naming scheme is 'Iotp_<orgID>_<database-name>_<bucket-interval>'"
+              }
+            }
+          },
+          "DetailMessageHub": {
+            "Title": "Configure Service: {0}",
+            "ViewTitle": "Service Details: {0}",
+            "Description": "You can forward device data directly to MessageHub topics by connecting a MessageHub service to your Watson IoT Platform service. The historical data storage configuration allows messages to either be sent to one destination topic or for filtering rules to be used to send messages to several destination topics.",
+            "PopupWarning": "When you click Done we'll open a popup to authorize connecting the Cloudant service to your Watson IoT Platform service. If you block popups, something might go wrong here.",
+            "ConfirmDelete": "You're about to delete this extension! Deleting this extension will stop your device data from being sent to your MessageHub service will delete the configuration settings. Are you sure you want to delete this extension?",
+            "Sections": {
+              "ForwardingRules": {
+                "Title": "Forwarding Rules",
+                "Description": "Forwarding rules define whether device data is sent to one MessageHub topic or filtered into several MessageHub topics."
+              },
+              "TopicConfiguration": {
+                "Title": "Topic Configuration",
+                "Description": "Topic configuration is optional and allows you to list a partition count for specific MessageHub topics. If you do not set a topic confuration for a topic, it will be created with a default of two partitions unless it is a previously existing topic in your MessageHub service."
+              }
+            },
+            "Fields": {
+              "TimeZone": {
+                "Label": "Time Zone"
+              },
+              "DefaultTopic": {
+                "Label": "Default Topic",
+                "Tooltip": "Defining a default topic will cause all device data to be sent to the default MessageHub topic. If you have defined custom forwarding rules the default topic will not be used."
+              },
+              "CustomForwardingRules": {
+                "Label": "Custom Forwarding Rules",
+                "Tooltip": "Custom forwarding rules allow you to send messages to multiple MessageHub topics. Custom forwarding rules cannot be used if you have set a default topic."
+              },
+              "TopicConfiguration": {
+                "Label": "Topic Configuration"
+              }
+            }
+          }
+        }
+      }
+    },
+    "AAA": {
+      "ApiKeys": {
+        "Add": {
+          "Confirm": {
+            "Generate": "Generate",
+            "Text": "Closing will result in no API Key being generated."
+          },
+          "Label": {
+            "ApiKey": "API Key",
+            "ApiKeyGenerate": "API key will be generated",
+            "AuthToken": "Authentication Token",
+            "AuthTokenGenerate": "Authentication Token will generated",
+            "Comment": "Comment",
+            "NoKey": "API key could not be generated",
+            "NoToken": "Token could not be generated",
+            "Expiry": "Set API key expiry",
+            "Roles": "Select API Role(s)",
+            "Title": "Generate API Key"
+          },
+          "Placeholder": {
+            "Comment": "Enter a comment"
+          },
+          "TokenDescription": "Authentication tokens are non-recoverable. If you misplace this token, you will need to re-register the API key to generate a new authentication token."
+        },
+        "Delete": {
+          "MultipleApiKeysText1": "You are about to delete multiple API keys. Any applications using these API keys will not be able to access your organization.",
+          "MultipleApiKeysText2": "Are you sure you want to delete these API keys?",
+          "MultipleApiKeysTitle": "Delete API Keys",
+          "OneApiKeyText1": "You are about to delete an API key. Any applications using this API key will not be able to access your organization.",
+          "OneApiKeyText2": "Are you sure you want to delete this API key?",
+          "OneApiKeyTitle": "Delete API Key"
+        },
+        "Edit": {
+          "Label": {
+            "AccessAllowed": "Access allowed",
+            "AccessDenied": "Access denied",
+            "AccessExpires": "Access expires",
+            "DateAdded": "Added on",
+            "Expiry": "Set API key expiry",
+            "LastEditedBy": "Last edited by",
+            "LastUpdate": "Last update",
+            "Status": "Status",
+            "Submit": "Confirm Changes",
+            "TabEdit": "Edit API Key",
+            "TabView": "View API Key",
+            "Title": "API Key:"
+          }
+        }
+      },
+      "Confirm": {
+        "Cancel": "Cancel",
+        "Delete": "Delete",
+        "Discard": "Discard",
+        "Close": "Close",
+        "Save": "Save",
+        "Submit": "Submit",
+        "Text": "Closing means your changes will not be saved.",
+        "Title": "Are you sure?",
+        "UnsavedChanges": "You have unsaved changes."
+      },
+      "Invitations": {
+        "Add": {
+          "Info": "This will send an email invitation to new members. They must follow the accept invite link and sign in to be added to the platform. Email invitations automatically expire after 48hrs and will need to be resent.",
+          "Messages": {
+            "Failure": "could not be invited",
+            "Success": "invited - invite another above or close"
+          },
+          "SubmitButton": "Invite",
+          "Title": "Invite Members"
+        },
+        "Delete": {
+          "MultipleInvitationsText1": "You are about to delete multiple invitations, this action will prevent the invited users from joining your organization.",
+          "MultipleInvitationsText2": "Are you sure you want to delete these invitations?",
+          "MultipleInvitationsTitle": "Delete Invitations",
+          "OneInvitationText1": "Are you sure you want to delete the invitation sent to '{0}'?",
+          "OneInvitationText2": "This action will prevent the user joining your organization.",
+          "OneInvitationTitle": "Delete Invitation"
+        },
+        "Import": {
+          "Label": {
+            "BulkInvite": "Bulk Invite"
+          },
+          "Messages": {
+            "Failure": "Users could not be invited. Please check your CSV and the settings.",
+            "Success": "Users were successfully invited."
+          }
+        }
+      },
+      "Label": {
+        "SaveAndClose": "Save and Close"
+      },
+      "Members": {
+        "Add": {
+          "Info": "This requires an IBM ID and will add a member directly into the platform with no notification.",
+          "Label": {
+            "IBMId": "IBM ID",
+            "MemberExpiry": "Set member expiry"
+          },
+          "Messages": {
+            "Failure": "could not be added",
+            "Success": "added - add another above or close"
+          },
+          "Placeholder": {
+            "IBMId": "Enter the IBM ID"
+          },
+          "SubmitButton": "Add",
+          "Title": "Add Members"
+        },
+        "Delete": {
+          "MultipleMembersText1": "You are about to delete multiple members, this action cannot be undone and will mean these members can no longer access the organization.",
+          "MultipleMembersText2": "Are you sure you wish to delete these members?",
+          "MultipleMembersTitle": "Delete Members",
+          "OneMemberText1": "Are you sure you want to delete '{0}'?",
+          "OneMemberText2": "This action cannot be undone and will mean this member can no longer access the organization.",
+          "OneMemberTitle": "Delete Member"
+        },
+        "Edit": {
+          "Label": {
+            "AddedBy": "Added by",
+            "AuthProvider": "Authentication provider",
+            "LastEditedBy": "Last edited by",
+            "Status": "Status",
+            "TabEdit": "Edit Member",
+            "TabView": "View Member",
+            "Title": "Member:"
+          }
+        },
+        "Import": {
+          "Label": {
+            "BulkAdd": "Bulk Add",
+            "BulkRegister": "Bulk Register",
+            "ColumnNumbers": "Column numbers of uploaded file",
+            "ColumnSeparator": "Column separator",
+            "Comma": "Comma",
+            "CSVInfo": "More information on constructing your CSV",
+            "CSVSettings": "CSV Settings",
+            "Detected": "Import errors detected",
+            "FileDropDescription": "Max number of entries: {0}",
+            "ImportComplete": "Import Complete",
+            "MemberExpiry": "Member expiry",
+            "OrgMembersLimit": "The number of members you can have is limited to {0}.",
+            "RoleInfo": "This is the role that will be used if there are unrecognized roles in the CSV",
+            "Semicolon": "Semicolon",
+            "UploadCSV": "Upload CSV"
+          },
+          "Messages": {
+            "DoubleNumbers": "Column numbers have to differ from each other.",
+            "Failure": "Users could not be added. Please check your CSV and the settings.",
+            "InvalidNumber": "Column numbers have to be in range from 1 to {0}",
+            "Success": "Users were successfully added."
+          },
+          "Placeholder": {
+            "ColumnNumber": "Enter the column number"
+          },
+          "SubmitButton": "Import"
+        },
+        "Register": {
+          "Info1": "Register will add a member directly into the platform with no notification.",
+          "Info2": "Field names comply to the OpenID Connect recommendations.",
+          "Label": {
+            "Email": "Email address",
+            "Issuer": "Issuer",
+            "RealmName": "Realm name",
+            "SecurityName": "Subject (unique security name)"
+          },
+          "Messages": {
+            "Failure": "could not be registered",
+            "Success": "added - register another above or close"
+          },
+          "Placeholder": {
+            "Email": "Enter the email address",
+            "Issuer": "Enter the issuer",
+            "RealmName": "Enter the realm name",
+            "SecurityName": "Enter the subject"
+          },
+          "SubmitButton": "Register"
+        }
+      },
+      "Messages": {
+        "InProcess": "In process",
+        "RequestFailed": "An error occured - your request could not be sent"
+      },
+      "Roles": {
+        "Add": {
+          "Label": {
+            "RoleDescription": "Description",
+            "RoleName": "Role Name",
+            "SelectPermissions": "Select Permissions",
+            "TabRoleInfo": "Role Information",
+            "TabRolePermissions": "Role Permissions",
+            "Template": "Template",
+            "Title": "New Role"
+          },
+          "Placeholder": {
+            "RoleDescription": "What is the role for etc?",
+            "RoleName": "e.g. Manager"
+          }
+        },
+        "DomainFilter": {
+          "Label": "You are viewing",
+          "ShowAll": "All Permissions"
+        },
+        "Domains": {
+          "ID:ACCESS_CONTROL": "Access Control",
+          "ID:BLOCKCHAIN": "Blockchain",
+          "ID:CACHE": "Cache",
+          "ID:DASHBOARD": "Dashboard",
+          "ID:DEVICE": "Device",
+          "ID:EXT_PLATFORM": "External Platform",
+          "ID:HISTORIAN": "Historian",
+          "ID:LOGS": "Logs",
+          "ID:ORGANIZATION": "Organization",
+          "ID:RISK_MGMT": "Risk Management",
+          "ID:RTI": "Analytics"
+        },
+        "Edit": {
+          "Label": {
+            "DeleteRole": "Delete Role",
+            "EditRole": "Edit Role",
+            "ViewRole": "View Role",
+            "XAppsUsingRole": "app(s) are currently using this role",
+            "XMembersUsingRole": "member(s) are currently using this role"
+          },
+          "Placeholder": {
+            "DeleteRoleForApps": "Select replacement role for app(s)...",
+            "DeleteRoleForMembers": "Select replacement role for member(s)..."
+          }
+        },
+        "Label": {
+          "AddRole": "Add Role",
+          "DefaultRole": "Default Role",
+          "Permissions": "Permissions",
+          "Role": "Role",
+          "Roles": "Roles",
+          "SwitchAxisButton": "Switch Axis"
+        },
+        "Names": {
+          "PD_ADMIN_USER": "Administrator",
+          "PD_ANALYST_USER": "Analyst",
+          "PD_BACKEND_TRUSTED_APP": "Backend Trusted Application",
+          "PD_DATA_PROCESSOR_APP": "Data Processor Application",
+          "PD_DEVELOPER_USER": "Developer",
+          "PD_DEVICE": "General Device",
+          "PD_DEVICE_APP": "Device Application",
+          "PD_OPERATOR_APP": "Operations Application",
+          "PD_OPERATOR_USER": "Operator",
+          "PD_PRIVILEGED_GW_DEVICE": "Privileged Gateway",
+          "PD_STANDARD_APP": "Standard Application",
+          "PD_STANDARD_GW_DEVICE": "Standard Gateway",
+          "PD_READER_USER": "Reader",
+          "PD_VISUALIZER_APP": "Visualization Application"
+        },
+        "Operations": {
+          "ACC_APIKEY_MANAGE": "Create, Update, Delete API-Key Access Rights",
+          "ACC_APIKEY_VIEW": "View API-Key Access Rights",
+          "ACC_DEFAULTROLE_MANAGE": "Create, update, delete default roles configuration",
+          "ACC_OPERATIONS_VIEW": "View Operations",
+          "ACC_ROLE_MANAGE": "Create, Update, Delete Custom Roles",
+          "ACC_ROLE_VIEW": "View Roles",
+          "ACC_USER_MANAGE": "Manage Users Access Rights",
+          "ACC_USER_VIEW": "View Users Access Rights",
+          "BLOCKCHAIN_CONFIG_MANAGE": "Create, update, delete Blockchain configuration",
+          "BLOCKCHAIN_CONFIG_VIEW": "View Blockchain configuration",
+          "CACHE_EVENTS_MANAGE": "Manage Live Data (Event Cache)",
+          "CACHE_EVENTS_VIEW": "View Live Data (Event Cache)",
+          "CONNECTOR_EVENTS_PUBLISH": "Publish an event for a device",
+          "CONNECTOR_EVENTS_SUBSCRIBE": "Subscribe to events from a device",
+          "CONNECTOR_GET_STATUS": "Get health status from connector",
+          "CONNECTOR_LIST_CONNECTORS": "List existing connectors",
+          "CONNECTOR_RECEIVE_NOTIFICATIONS": "Process batch notifications from external platform",
+          "CONNECTOR_SEND_NOTIFICATIONS": "Process batch notifications and send them to external platform",
+          "CONNECTOR_SET_CALLBACK": "Set a callback URL for the external platform",
+          "CONNECTOR_SET_SUBSCRIPTION": "Set subscription level of the external platform",
+          "CONNECTOR_VERIFY_STATUS": "Verify if an external system is up and validate credentials",
+          "DB_CREATE_BOARD": "Create dashboards",
+          "DB_DELETE_BOARD": "Delete dashboards",
+          "DB_SHARE_BOARD": "Share dashboards with others",
+          "DB_UPDATE_BOARD": "Update dashboards and cards",
+          "DB_VIEW_BOARD": "View all or one specific dashboard",
+          "DEVICE_CMD_PUBLISH": "Publish/send a command",
+          "DEVICE_CMD_SUBSCRIBE": "Subscribe to a command",
+          "DEVICE_DEVICES_ACTIVATE": "Activate Device (HTTP)",
+          "DEVICE_DEVICES_CREATE": "Create Devices (HTTP)",
+          "DEVICE_DEVICES_DELETE": "Delete Devices (HTTP)",
+          "DEVICE_DEVICES_UPDATE": "Update Devices (HTTP)",
+          "DEVICE_DEVICES_VIEW": "View Devices",
+          "DEVICE_DIAG_ERRORCODES_MANAGE": "Manage Diagnostic Logs",
+          "DEVICE_DIAG_VIEW": "View Diagnostic Logs",
+          "DEVICE_EVENTS_PUBLISH": "Publish/send an event",
+          "DEVICE_EVENTS_SUBSCRIBE": "Subscribe to an event",
+          "DEVICE_MGMT_CLEAR": "Clear Actions",
+          "DEVICE_MGMT_INITIATE": "Initiate Actions",
+          "DEVICE_MGMT_MANAGE": "Manage DM Action Bundles",
+          "DEVICE_MGMT_PROTOCOL": "Sub/pub to DM topics",
+          "DEVICE_MGMT_STATUS": "View Actions",
+          "DEVICE_TYPES_MANAGE": "Create, Update, Delete Device Types",
+          "DEVICE_TYPES_VIEW": "View Device Types",
+          "HISTORIAN_EVENTS_MANAGE": "Manage Historical Data",
+          "HISTORIAN_EVENTS_VIEW": "View Historical Data",
+          "LOGS_CONNECTIVITY_VIEW": "View Server Logs",
+          "ORG_APIKEY_MANAGE": "Create, Update, Delete API-Keys",
+          "ORG_APIKEY_VIEW": "View API-Keys",
+          "ORG_AUTHENTICATION_CONFIG": "Configure Authentication Provider",
+          "ORG_CFG_STORAGE": "Configure Storage parameters",
+          "ORG_INVITATION_COMPLETE": "Complete User Invitations",
+          "ORG_INVITATION_MANAGE": "Manage User Invitations",
+          "ORG_INVITATION_VIEW": "View User Invitations",
+          "ORG_MAILCONFIG_MANAGE": "Create, Update, Delete Mail Configuration",
+          "ORG_MAILCONFIG_VIEW": "View Mail Configuration",
+          "ORG_MAILPROVIDER_VIEW": "View Mail Provider",
+          "ORG_MAILTEMPLATE_MANAGE": "Manage Mail Templates",
+          "ORG_MAILTEMPLATE_VIEW": "View Mail Templates",
+          "ORG_USER_MANAGE": "Create, Update, Delete Users",
+          "ORG_USER_VIEW": "View Users",
+          "ORG_USAGE_VIEW": "View ORG Usage Information",
+          "RISK_MGMT_MANAGE": "Add a new certificate",
+          "RISK_MGMT_VIEW": "View all certificates",
+          "RTI_ACTION_MANAGE": "Manage Actions",
+          "RTI_ACTION_VIEW": "View Actions",
+          "RTI_HISTALERT_VIEW": "View Alerts",
+          "RTI_MSGSCHEMA_MANAGE": "Manage Schemas",
+          "RTI_MSGSCHEMA_VIEW": "View Schemas",
+          "RTI_RULE_MANAGE": "Manage Rules",
+          "RTI_RULE_VIEW": "View Rules"
+        },
+        "RolesFilter": {
+          "ApiKeyRoles": "API-Key Roles",
+          "MemberRoles": "Member Roles"
+        }
+      },
+      "Warnings": {
+        "DisplayNameRequired": "Display Name required",
+        "DoubleMember": "Member already exists",
+        "DoubleRole": "Role name already exists",
+        "EmailInvalid": "Invalid email address",
+        "EmailRequired": "Email address required",
+        "IBMIdInvalid": "Invalid IBM ID",
+        "IBMIdRequired": "IBM ID required",
+        "IssuerRequired": "Issuer required",
+        "NotFound": "Not Found",
+        "RealmNameRequired": "Realm Name required",
+        "RoleNameRequired": "Name required",
+        "SecurityNameRequired": "Security Name required"
+      }
+    },
+    "Dialog": {
+      "Alert": "Alert",
+      "Back": "Back",
+      "Submit": "Submit",
+      "Next": "Next",
+      "Cancel": "Cancel",
+      "AreUSure": "Are you sure?"
+    },
+    "RequestPermissionDialog": {
+      "Title": "Requested Permission",
+      "Text": "The action you just attempted to complete requires permissions that you have not been assigned.",
+      "Text1": "If you believe your role is too restrictive, please contact your system administrator.",
+      "RequestedPermission": "Requested Permission",
+      "SendRequest": "Send Request",
+      "Cancel": "Cancel"
+    },
+    "FileDrop": {
+      "textTitle": "Drop your {0} file here to upload",
+      "textDescription": "Max filesize: 20mb.",
+      "textUploadCompleteTitle": "File '{0}' has been successfully uploaded",
+      "textUploadCompleteSubtitle": "({0} rows were read)",
+      "textClickHereToUpload": "Or click here to select the file",
+      "textClickHereToUploadAnother": "Click here to replace with another file",
+      "errorTitle": "An error has occurred",
+      "errorClose": "Close",
+      "errorOnRead": "Error reading the file",
+      "errorInvalidJSON": "Invalid JSON file, please check if the file syntax is correct",
+      "errorFileType": "The file format is invalid. Upload a file with the extension {0}",
+      "errorSizeLimit": "This file exceeds the limit",
+      "errorInvalidPEM": "This certificate file is not valid",
+      "errorMultiplePEM": "Certificate bundles are not accepted, please submit a file with only one certificate",
+      "errorCsvNoData": "This .csv file is invalid. There is no data in it",
+      "errorCsvInconstantElements": "This .csv file is invalid. Every line must contain the same number of elements",
+      "errorCsvExceedLineLimit": "The limit of .csv lines is {0}.",
+      "errorDragDropNotSupported": "File drag and drop is not supported by your browser"
+    },
+    "MultiSelect": {
+      "textAddAnother": "Add another role",
+      "textPlaceholder": "Select a role"
+    },
+    "RolesTable": {
+      "permissions": "Permissions",
+      "roles": "Roles",
+      "selectAll": "Select all",
+      "allPermissions": "All permissions",
+      "cannotLoadAPI": "Information could not be loaded from Watson IoT API",
+      "SelectTableHeaders": "Select Table Headers",
+      "youAreViewing": "You are viewing:",
+      "switchAxis": "Switch Axis"
+    },
+    "InlineModal": {
+      "finish": "Finish",
+      "next": "Next",
+      "cancel": "Cancel",
+      "stepNumber": "Step {0} of {1}"
+    },
+    "SchemaPage": {
+      "trigger": "Schemas",
+      "description": "Create, edit, and delete schemas. Message schemas are associated with a device type and can be used to configure analytics rules.",
+      "linkAddSchema": "Add A Schema",
+      "buttonAddSchema": "+ Add Schema",
+      "Notification": {
+        "title": "Notification",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "close": "Close",
+        "donotshowagain": "Do not show again"
+      },
+      "AddSchema": {
+        "DeviceType": {
+          "title": "Device Type",
+          "description": "Select a device type to associate with this message schema.  Only one schema can be defined per device type.",
+          "defaultOption": "Select type...",
+          "loading": "Loading...",
+          "name": "Name"
+        },
+        "Properties": {
+          "title": "Properties"
+        }
+      },
+      "SchemaTable": {
+        "Columns": {
+          "deviceType": "Device Type",
+          "created": "Creation Date"
+        },
+        "empty": "You don't have any schemas",
+        "emptyAction": "Create a schema",
+        "deleteConfirm": "Are you sure that you want to remove the schemas?",
+        "selectTableHeader": "Select Table Headers"
+      },
+      "SchemaDetail": {
+        "next": "Next",
+        "finish": "Finish",
+        "virtual": "virtual",
+        "typefloat": "float",
+        "typeint": "integer",
+        "typestring": "string",
+        "typeParent": "parent",
+        "Columns": {
+          "deviceType": "Device Type",
+          "properties": "Properties"
+        },
+        "ViewDeviceType": {
+          "description": "A schema is uniquely associated with a device type.",
+          "deviceTypeLabel": "Device Type"
+        },
+        "EditDeviceType": {
+          "description": "The device type is uniquely associated with a schema and cannot be changed.",
+          "deviceTypeLabel": "Device Type"
+        },
+        "ViewProperties": {
+          "columns": {
+            "property": "Property",
+            "name": "Name",
+            "type": "Data Type",
+            "event": "Event"
+          },
+          "empty": "No properties are defined"
+        }
+      },
+      "AddProperty": {
+        "Manual": {
+          "title": "Manual",
+          "description": "Add and define a property manually",
+          "SubText": {
+            "part1": "Add properties for the device data that you want to display in cards and use with rule conditions.  Specify the property names that are included in the device message.",
+            "part2": "Important: ",
+            "part3": "If you are adding a nested property do not include the parent property name."
+          },
+          "PropertyDetails": {
+            "title": "Property Details"
+          },
+          "AdditionalInformation": {
+            "title": "Additional Information",
+            "subText": "The property attributes display in cards and in alerts and help you interpret the property."
+          },
+          "nameLabel": "Name",
+          "namePlaceholder": "A human readable name for the property",
+          "typeLabel": "Data type",
+          "typeOptionFloat": "Float",
+          "typeOptionInteger": "Integer",
+          "typeOptionString": "String",
+          "typeOptionParent": "Parent",
+          "eventLabel": "Event",
+          "eventPlaceholder": "Enter the name of the event",
+          "propertyLabel": "Property",
+          "propertyPlaceholder": "Enter the property name that is sent by the device",
+          "unitLabel": "Data unit",
+          "unitPlaceholder": "Example: kg, m, C",
+          "decimalLabel": "Decimal places"
+        },
+        "Virtual": {
+          "title": "Virtual Property",
+          "description": "Create a virtual property",
+          "SubText": {
+            "part1": "Use virtual properties for simple unit conversion or to create more complex properties manipulation by arithmetically combining device properties and numerical values.",
+            "part2": "Important:",
+            "part3": "Virtual properties can be used with rule conditions only. They cannot be displayed in boards and cards."
+          },
+          "PropertyDetails": {
+            "title": "Property Details"
+          },
+          "AdditionalInformation": {
+            "title": "Additional Information",
+            "subText": "The virtual property attributes are displayed in alerts and help you interpret the property."
+          },
+          "nameLabel": "Name",
+          "namePlaceholder": "A human readable name for the virtual property",
+          "typeLabel": "Data type",
+          "typeOptionFloat": "Float",
+          "typeOptionInteger": "Integer",
+          "eventLabel": "Event",
+          "propertyLabel": "Property",
+          "propertyPlaceholder": "Specify an identifier for the property",
+          "unitLabel": "Data unit",
+          "unitPlaceholder": "Example: kg, m, C",
+          "decimalLabel": "Decimal places",
+          "calculation": "Calculation",
+          "propertyButton": "Property",
+          "valueButton": "Value",
+          "advancedButton": "Advanced",
+          "edgeAVGTooltip": "The AVG component returns the average datapoint value over a number of datapoints or a time period.",
+          "edgeZScoreTooltip": "The Z-score component returns the difference in standard deviation units between the datapoint and the mean datapoint value over a number of datapoints or a time period.",
+          "edgeAVGHelpTxt": "<b>Important:</b> The AVG component only returns property datapoints if the data for the selected property comes from a device that is connected to a gateway that has an Edge Analytics Agent installed.  An edge rule can use this virtual property directly. To use the property with a cloud rule, an edge rule must send the datapoint to the cloud by using the Forward to cloud action.",
+          "edgeZScoreHelpTxt": "<b>Important:</b> The Z-score component only returns property datapoints if the data for the selected property comes from a device that is connected to a gateway that has an Edge Analytics Agent installed.  An edge rule can use this virtual property directly. To use the property with a cloud rule, an edge rule must send the datapoint to the cloud by using the Forward to cloud action.",
+          "edgeAggrFuncTime": {
+            "hours": "Hours",
+            "mins": "Minutes",
+            "seconds": "Seconds",
+            "datapoints": "Datapoints"
+          }
+        },
+        "Connected": {
+          "title": "From Connected",
+          "description": "Add multiple properties from connected devices",
+          "SubText": {
+            "part1": "Select one or more properties to add to the schema.  These properties can later be edited to set attributes, such as name and data unit.",
+            "part2": "Important: ",
+            "part3": "Each property must be unique for a schema."
+          },
+          "empty": {
+            "part1": "No events received from connected devices of this type.",
+            "part2": "If you have devices of this type connected to the platform then published events will appear here."
+          }
+        },
+        "columns": {
+          "property": "Property",
+          "name": "Name",
+          "type": "Type",
+          "event": "Event"
+        },
+        "empty": "No properties are defined",
+        "emptyAction": "Add a property",
+        "addProperty": "Add property",
+        "cancel": "Cancel",
+        "finish": "Finish",
+        "ok": "OK"
+      },
+      "Error": {
+        "failedCreateDescription": "The schema was not created.",
+        "failedLoadDescription": "The schema data could not be retrieved.",
+        "failedUpdateDescription": "The schema was not updated.",
+        "failedDeleteDescription": "One or more schemas were not removed.",
+        "error": "Error!",
+        "internalError": "Internal error. The action could not be completed due to an internal error. Try the action again. If the error persists, contact your system administrator.",
+        "engineNotAvailable": "The analytics engine is not available. The system reconnects automatically when the engine becomes available. Wait a minute or two and then refresh your browser. If the problem persists, contact your system administrator.",
+        "propertyAlreadyUsed": "The property name is already used in the schema.",
+        "propertyAlreadyUsedNested": "The property name is already used in the same nested level.",
+        "propertyValidation": "Use only alphanumeric characters and underscore.",
+        "formulaValidation": "The formula is not valid.  Verify that the formula can be resolved",
+        "schemaVersionObsolete": "Update conflict. Failed updating because it did not have the most recent state. Refresh, make additional changes, then update again.",
+        "FailedDeleteInUsedRule": {
+          "part1": "A schema that is used by a rule cannot be removed. Remove the schemas from the affected rules and then remove the schema from the schemas panel.",
+          "part2": "The following schemas were not removed:",
+          "part3": "Schema | Rules"
+        },
+        "FailedUpdateInUsedRule": {
+          "part1": "One or more rules include conditions that are dependent on the property changes in the schema.",
+          "part2": "Edit or remove the rule condition to resolve the property dependency and then update the schema.",
+          "part3": "Property | Rule"
+        },
+        "FailedAddExistedProp": {
+          "part1": "One or more property names is already used in the schema.",
+          "part2": "Property names:"
+        },
+        "FailedSaveInvalidProp": {
+          "part1": "One or more property names contain invalid characters. A property name can contain alphanumeric characters and the underscore character only.",
+          "part2": "Invalid property names:"
+        },
+        "FailedPropertyDelete": {
+          "part1": "The {0} property cannot be deleted. It is used by one or more virtual properties. Edit the virtual properties to remove the dependency, and then delete the property.",
+          "part2": "Virtual properties:"
+        },
+        "FailedSaveParentNoChildren": {
+          "part1": "The schema was not updated.",
+          "part2": "Parent type properties with no children are not supported.",
+          "part3": "Remove the following properties, or add child properties to them and then save the schema.",
+          "part4": "Parent type properties with no children:"
+        },
+        "NotDeviceStructure": {
+          "part1": "Important",
+          "part2": "Make sure that the property structure in your schema matches the structure of your JSON device messages.",
+          "part3": "For example, if the device message includes a parent d node that has a collection of child message objects, then your schema must include a parent d property that has the properties nested underneath.",
+          "part4": "JSON message: { d: {property1: value1, property2: value2}}",
+          "part5": "Schema:",
+          "part6": "Property",
+          "part7": "Type",
+          "part8": "parent",
+          "part9": "float"
+        },
+        "timeOutOfRangeError": "The interval time value for {0} should be an integer between 1 and {1}."
+      }
+    },
+    "EdgeGatewayPage": {
+      "Notification": {
+        "title": "Notification",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "close": "Close"
+      },
+      "ruleName": "Name: ",
+      "ruleDescription": "Description: ",
+      "btnSubmit": "Submit Command",
+      "btnCancel": "Cancel",
+      "submitSuccess": "{0} Submission Successful",
+      "submitFailure": "{0} Submission Failed",
+      "noSelectionWarning": "The rule is not active on any gateways. Alerts and other rule triggered actions will not be triggered. Are you sure that you want to continue?",
+      "selectionWarning": "You have selected some commands but have not sent them. Continuing will discard those commands, or press cancel to return and send them.",
+      "commandCountOnGateways": "Command to be processed on {0} Gateway(s).",
+      "headlineDescription": "Manage the edge rules for the devices at your gateways by selecting activate, deactivate, update, or remove.",
+      "overallRuleStatus": "Overall status: ",
+      "toggleAllTooltip": "Select all and enable multi-gateway operation selection.",
+      "globalOperationTooltip":"Activate, deactivate, update, or remove rules on the selected gateways."
+    },
+    "ActionPage": {
+      "trigger": "Create An Action",
+      "title": "Rule Actions",
+      "description": "Create, edit, and delete actions. Use actions to run business logic when the trigger conditions of a rule are met for a device. Actions can be to send an email, connect to a web service, and more.",
+      "Table": {
+        "selectTableHeader": "Select Table Headers",
+        "empty": "You don't have any rule actions",
+        "emptyAction": "Add a rule action",
+        "confirmDeleteOne": "Are you sure that you want to remove this action?",
+        "confirmDeleteMany": "Are you sure that you want to remove the actions?",
+        "Label": {
+          "name": "Name",
+          "type": "Type",
+          "description": "Description"
+        }
+      },
+      "Notification": {
+        "title": "Notification",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "close": "Close"
+      },
+      "Modal": {
+        "titleCreate": "Create New Action",
+        "titleEdit": "Edit Action",
+        "titleView": "View Action",
+        "titleStep0": "Action Type",
+        "titleStep1": "Configure",
+        "panelTitleCreateStep0": "Select the type of action that you want to create.",
+        "panelTitleEditStep0": "Edit the action",
+        "panelTitleEmail": "An email is sent to the provided email addresses when the action is triggered.",
+        "panelTitleWebhook": "An HTTP request is made to a webhook-enabled web service when the action is triggered. A webhook could for example be used to open a service request for an asset if a sensor in the device reports an abnormal reading.",
+        "panelTitleNodeRED": "Connect to a Node-RED HTTP input node when the action is triggered. The URL field must include the Node-RED host name and port as well as the URL path that is configured with the node.",
+        "panelTitleIFTTT": "Trigger an IFTTT recipe when the action is triggered. Include the Maker Channel key to use to trigger the event and the event name that you configured as a trigger for the Maker Event. The content of the value fields is passed to the action in your IFTTT recipe.",
+        "listHelpText": "Create, edit, and delete actions. Use actions to run business logic when the trigger conditions of a rule are met for a device. Actions can be to send an email, connect to a web service, and more.",
+        "required": "required",
+        "finish": "Finish",
+        "next": "Next",
+        "close": "Close",
+        "panelTitleForwardEvent": "Select the event data to forward to the cloud and provide the event name to use in the message.",
+        "panelTitleAlert": "Specify an alert message and select at least one destination for the alert.",
+        "confirmUnsupportVariable": "Unsupported variables in {0}. Are you sure you want to continue?",
+        "ActionType": {
+          "email": "Send email",
+          "ifttt": "IFTTT",
+          "webhook": "Webhook action",
+          "nodeRed": "Node-RED",
+          "forwardEvent": "Forward event to cloud",
+          "alert": "Alert"
+        },
+        "Error": {
+          "internal": "Internal error. The action could not be completed due to an internal error. Try the action again. If the error persists, contact your system administrator.",
+          "badUrl": "The URL is not well formed. Make sure that the URL conforms to the following syntax: https: //example.com/path?query. Both http and https are supported.",
+          "email": "This email address is not valid.",
+          "required": "This field is required",
+          "alphanumValidation": "Use only alphanumeric characters, hyphen(-) and underscore (_).",
+          "UsedByRule": {
+            "part1": "One or more actions were not removed.",
+            "part2": "An action that is used by a rule cannot be removed. Remove the actions from the affected rules and then remove the action from the actions panel.",
+            "part3": "The following actions were not removed:",
+            "part4": "Action | Rules"
+          },
+          "parseXML": "Unable to parse message body to XML format. Correct syntax and try again.",
+          "parseJSON": "Unable to parse message body to JSON format. Correct syntax and try again.",
+          "parseURL": "Unable to parse message body to form URL format. Correct syntax and try again.",
+          "saveActionConflict": "Unable to save action because a newer version has been saved on server, please refresh browser and try again.",
+          "loadFailure": "Failed to load actions!",
+          "loadFailureDescription": "The action data could not be retrieved.",
+          "createFailure": "Failed to create action!",
+          "createFailureDescription": "The action was not created.",
+          "updateFailure": "Failed to update action!",
+          "updateFailureDescription": "The action was not updated.",
+          "deleteFailure": "Failed to delete action!",
+          "generic": "Error!",
+          "duplicate": "An action with the same name already exists. Enter a different name.",
+          "engineNotAvailable": "The analytics engine is not available. The system reconnects automatically when the engine becomes available. Wait a minute or two and then refresh your browser. If the problem persists, contact your system administrator."
+        },
+        "Label": {
+          "type": "Type",
+          "typeholder": "Select type...",
+          "name": "Name",
+          "description": "Description",
+          "subject": "Subject",
+          "subjectPrefix": "IBM Watson IoT Alert",
+          "to": "To",
+          "cc": "CC",
+          "includeData": "Include Data",
+          "includeDataHelpText": "Include device data that corresponds to the data points at the time that this alert is triggered. The data is included as plain text.",
+          "justMe": "Just me",
+          "specificPeople": "Specific people",
+          "noOne": "No one",
+          "emailHolder": "Email 1, email 2, email 3…",
+          "key": "Key",
+          "event": "Event",
+          "value1": "Value1",
+          "value2": "Value2",
+          "value3": "Value3",
+          "url": "URL",
+          "urlTitle": "The URL of the target Webhook HTTP input node. \n You can use variable substitution to dynamically include rule meta-data in the URL. \n The following variables are supported: \n {timestamp} The timestamp from the message \n {orgId} The ID of the organization \n {deviceId} The ID of the device \n {ruleName} The name of the rule that includes the action",
+          "method": "Method",
+          "username": "User name",
+          "password": "Password",
+          "header": "Header",
+          "headerholder": "header",
+          "headers": "Headers",
+          "headerValueTitle": "The following variables are supported: \n {timestamp} The timestamp from the message \n {orgId} The ID of the organization \n {deviceId} The ID of the device \n {ruleName} The name of the rule that includes the action",
+          "headerColumn": "Header",
+          "valueColumn": "Value",
+          "valueholder": "value",
+          "contentType": "Content type",
+          "body": "Body",
+          "bodyTitle": "You can use variable substitution to dynamically include rule meta-data in the body field. \n The following variables are supported: \n {timestamp} The timestamp from the message \n {orgId} The ID of the organization \n {deviceId} The ID of the device \n {ruleName} The name of the rule that includes the action \n {ruleDescription} The description of the rule that includes the action \n {ruleCondition} The rule condition that triggered the action \n {message} The raw device message that included the data point value that triggered the rule \n {ruleID} The unique ID of the rule that includes the action",
+          "restoreDefault": "Restore defaults",
+          "nodeRedUrlTitle": "The URL of the target Node-RED HTTP input node.\nYou can use variable substitution to dynamically include rule meta-data in the URL.\nThe following variables are supported:\n{timestamp} The timestamp from the message\n{orgId} The ID of the organization\n{deviceId} The ID of the device\n{ruleName} The name of the rule that includes the action",
+          "nodeRedBodyTitle": "You can use variable substitution to dynamically include rule meta-data in the body field.\nThe following variables are supported:\n{timestamp} The timestamp from the message\n{orgId} The ID of the organization\n{deviceId} The ID of the device\n{ruleName} The name of the rule that includes the action\n{ruleDescription} The description of the rule that includes the action\n{ruleCondition} The rule condition that triggered the action\n{message} The raw device message that included the data point value that triggered the rule\n{ruleID} The unique ID of the rule that includes the action",
+          "warning": "Warning",
+          "restoreWarning": "Restoring defaults sets the body text to its default value and all changes will be lost.",
+          "forwardAllData": "Include all device properties and virtual properties used in the rule",
+          "forwardSchemaOnly": "Include only schema-defined properties and virtual properties used in the rule",
+          "eventName": "Event name",
+          "alertMessage": "Alert Message",
+          "forwardToIoTP": "Forward to Watson IoT Platform",
+          "publishToGatewayBroker": "Publish to gateway broker",
+          "saveToLocalFile": "Save to a local text file: IBMEdgeAnalyticsAlerts.csv"
+        }
+      }
+    }
+  }
+}

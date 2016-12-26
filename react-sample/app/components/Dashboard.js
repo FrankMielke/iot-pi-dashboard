@@ -2,7 +2,7 @@ const React = window.React;
 const IoTFComponents = window.IoTFComponents;
 const IoTFDashboard = IoTFComponents.Dashboard;
 import DashboardConfig from '../PiDashboardConfig.json';
-import nlsData from '@watson-iot/dashboard/nls/react-modules/messages-en.json';
+import nlsData from '../@watson-iot/dashboard/nls/react-modules/messages-en.json';
 
 const DashboardProps = {
     auth: {
@@ -10,7 +10,7 @@ const DashboardProps = {
     },
     nls: {resolve: (key) => {return key;}},
     emitter: {
-        emit: function(key, value) {
+        emit: (key, value) => {
             console.log('emitter.emit', key, value);
         }
     },
@@ -23,9 +23,9 @@ const DashboardProps = {
 
 // NLS //////////////////////////////////////////
 // For nls flatten
-const flatten = function(data) {
+const flatten = (data) => {
     const res = {};
-    const rec = function(cur, prop) {
+    const rec = (cur, prop) => {
         if (Object(cur) !== cur) {
             res[prop] = cur;
         } else if (Array.isArray(cur)) {
@@ -52,27 +52,28 @@ const flatten = function(data) {
     return res;
 };
 
-const format = function(form) {
+const format = (form) => {
     const args = Array.prototype.slice.call(arguments, 1);
-    return form.replace(/{(\d+)}/g, function(match, number) {
+    return form.replace(/{(\d+)}/g, (match, number) => {
         return typeof args[number] !== 'undefined' ? args[number] : match;
     });
 };
 
-const NLS = function() {
-    const self = this;
+class NLS {
+    constructor() {
+        this.cache = flatten(nlsData);
+    }
 
-    self.resolve = function(key) {
+    resolve = (key) => {
         let ret = null;
-        if (self.cache['react-modules.' + key]) {
-            ret = format.apply(self, [self.cache['react-modules.' + key]].concat(Array.prototype.slice.call(arguments, 1)));
+        if (this.cache['react-modules.' + key]) {
+            ret = format.apply(this, [this.cache['react-modules.' + key]].concat(Array.prototype.slice.call(arguments, 1)));
         } else {
             ret = key;
         }
         return ret;
-    };
-    self.cache = flatten(nlsData);
-};
+    }
+}
 
 DashboardProps.nls = new NLS();
 // NLS END ////////////////////////////////////////////

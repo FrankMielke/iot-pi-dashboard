@@ -7,43 +7,41 @@
     <title>Watson IoT standalone dashboard with React Redux React-Router and Webpack Boilerplate</title>
     <meta name="description" content="Watson IoT standalone dashboard with React Redux React-Router and Webpack Boilerplate">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../node_modules/@watson-iot/dashboard/css/IoTFComponents.css">
-    <link rel="stylesheet" href="../node_modules/@watson-iot/dashboard/css/modules.css">
+    <link rel="stylesheet" href="./app/@watson-iot/dashboard/css/IoTFComponents.css">
+    <link rel="stylesheet" href="./app/@watson-iot/dashboard/css/modules.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./app/@watson-iot/dashboard/vendor/openlayers/ol.css">
+    <link rel="stylesheet" href="./app/@watson-iot/dashboard/vendor/react-datepicker/react-datepicker.min.css">
 
-    <script src="../node_modules/@watson-iot/dashboard/vendor/jquery/dist/jquery.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/jquery-autoellipsis/jquery.autoellipsis-1.0.10.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/jquery-autoellipsis/jquery.autoellipsis-1.0.10.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/jquery-ui/jquery-ui.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/d3/d3.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/c3/c3.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/react/react-with-addons.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/react/react-dom.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/redux/redux.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/react-redux/react-redux.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/redux-thunk/redux-thunk.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/redux-logger/index.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/whatwg-fetch/fetch.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/react-grid-layout/react-grid-layout.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/reflux/reflux.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/dygraphs/dygraph-combined.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/openlayers/ol.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/griddle-react/underscore-min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/griddle-react/griddle.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/mqttws31/index.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/moment/min/moment-with-locales.min.js"></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/moment-timezone/builds/moment-timezone-with-data-2010-2020.min.js"></script>
-    <script type='application/javascript' src='../node_modules/@watson-iot/dashboard/vendor/fastclick/fastclick.js'></script>
-    <script src="../node_modules/@watson-iot/dashboard/vendor/pathseg/pathseg.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/d3/d3.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/c3/c3.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/react/react-with-addons.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/react/react-dom.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/redux/redux.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/react-redux/react-redux.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/redux-thunk/redux-thunk.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/redux-logger/index.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/whatwg-fetch/fetch.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/react-grid-layout/react-grid-layout.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/reflux/reflux.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/dygraphs/dygraph-combined.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/openlayers/ol.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/griddle-react/underscore-min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/griddle-react/griddle.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/mqttws31/index.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/moment/min/moment-with-locales.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/moment-timezone/builds/moment-timezone-with-data-2010-2020.min.js"></script>
+    <script src='./app/@watson-iot/dashboard/vendor/fastclick/fastclick.js'></script>
+    <script src="./app/@watson-iot/dashboard/vendor/pathseg/pathseg.js"></script>
 
-    <script src="../node_modules/@watson-iot/dashboard/vendor/react-datepicker/react-datepicker.min.js"></script>
+    <script src="./app/@watson-iot/dashboard/vendor/react-datepicker/react-datepicker.min.js"></script>
 
-    <script src="app/IoTFCommon.js"></script>
-    <script src="app/IoTFComponents.js"></script>
-<!--
-<script src="../node_modules/@watson-iot/dashboard/js/IoTFCommon.min.js"></script>
-<script src="../node_modules/@watson-iot/dashboard/js/IoTFComponents.min.js"></script>
--->
+    <script src="./app/IoTFCommon.js"></script>
+    <script src="./app/IoTFComponents.js"></script>
 </head>
 
 <body class="view-login">

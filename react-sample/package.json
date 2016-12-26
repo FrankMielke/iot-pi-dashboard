@@ -17,7 +17,6 @@
   "author": "Jean-Pierre Sierens",
   "license": "MIT",
   "dependencies": {
-    "@watson-iot/dashboard": "*",
     "btoa": "^1.1.2",
     "exports-loader": "^0.6.3",
     "expose-loader": "^0.7.1",
