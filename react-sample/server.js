@@ -45,7 +45,7 @@ var app = new WebpackDevServer(webpack(config), {
         headers: options.headers
       }
     }
-}).listen(3000, 'localhost', function (err) {
+}).listen(3000, '0.0.0.0', function (err) {
     if (err) {
         console.log(err);
     }
