@@ -1,8 +1,12 @@
-const React = window.React;
+const {Component, PropTypes} = window.React;
+import { connect } from 'react-redux';
+import * as actions from '../actions'
+import { bindActionCreators } from 'redux'
 const IoTFComponents = window.IoTFComponents;
 const IoTFDashboard = IoTFComponents.Dashboard;
 import DashboardConfig from '../PiDashboardConfig.json';
 import nlsData from '../@watson-iot/dashboard/nls/react-modules/messages-en.json';
+import Menu from './Menu.js';
 
 const DashboardProps = {
     auth: {
@@ -21,8 +25,6 @@ const DashboardProps = {
     orgUsers: [{id: 'm:orgid:markus.juettner@de.ibm.com', email: 'markus.juettner@de.ibm.com'}, {id: 'm:orgid:mielke@de.ibm.com', email: 'mielke@de.ibm.com'}, {id: 'm:orgid:robter.thosssssssssssssssssssssssssssssssssssssssssssssssssssssss@de.ibm.com', email: 'robert.thosssssssssssssssssssssssssssssssssssssssssssssssssssssss@de.ibm.com'}]// add a set of custom card urls (array of "name" and "url" entries)
 };
 
-// NLS //////////////////////////////////////////
-// For nls flatten
 const flatten = (data) => {
     const res = {};
     const rec = (cur, prop) => {
@@ -75,13 +77,51 @@ class NLS {
     }
 }
 
+class Dashboard extends Component {
+
+  constructor(props) {
+    super(props)
+  }
+
+  componentDidUpdate = (prevProps) => {
+    if (this.props.selectedItem !== prevProps.selectedItem) {
+      IoTFDashboard.callAction("LOAD_BOARD", this.props.selectedItem)
+    }
+    document.body.style.overflow = "hidden"
+  }
+
+  render = () => {
+    return (
+      <div className="dashboardContainer">
+          <Menu/>
+          <div className="dashboard">
+            <IoTFDashboard auth={DashboardProps.auth} nls={DashboardProps.nls} selectedDashboard={this.props.selectedItem} orgUsers={DashboardProps.orgUsers} dashboardConfig={DashboardProps.dashboardConfig} emitter={DashboardProps.emitter}/>
+          </div>
+      </div>
+    )
+  }
+}
+
 DashboardProps.nls = new NLS();
-// NLS END ////////////////////////////////////////////
 
-const Dashboard = () =>
-    <div>
-        <IoTFDashboard auth={DashboardProps.auth} nls={DashboardProps.nls} selectedDashboard={DashboardProps.selectedDashboard} orgUsers={DashboardProps.orgUsers} dashboardConfig={DashboardProps.dashboardConfig} emitter={DashboardProps.emitter}/>
-    </div>;
+Dashboard.propTypes = {
+   selectedItem: PropTypes.string
+};
 
+const mapStateToProps = (state) => {
+    return {
+      selectedItem: state.menu.selectedItem
+    }
+};
 
-export default Dashboard;
+const mapDispatchToProps = (dispatch) => {
+  const actionCreators = bindActionCreators(actions, dispatch)
+  return {
+    onSelect: actionCreators.onSelect
+  }
+};
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(Dashboard);

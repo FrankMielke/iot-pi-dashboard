@@ -68,7 +68,7 @@
     "multipleDashboards": true,
     "remoteSynchronization": true,
     "multiplePages": false,
-    "showControls": true,
+    "showControls": false,
     "useOldDialogs": false,
     "breakpoints": {"xxl": 1649, "xl": 1324, "lg": 999, "md": 674, "sm": 349},
     "cols": {"xxl": 10, "xl": 8, "lg": 6, "md": 4, "sm": 2},

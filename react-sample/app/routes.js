@@ -2,7 +2,7 @@ const React = window.React;
 import { Route, IndexRoute } from 'react-router';
 import App from './components/App';
 // import Config from './containers/Config';
-import Dashboard from './components/Dashboard';
+import Dashboard from './containers/Dashboard';
 
 export default (
 	<Route path="/" component={App}>

@@ -24,3 +24,51 @@ header {
 		padding: 5px 10px 5px 0;
 	}
 }
+
+.dashboardContainer {
+  overflow: hidden;
+  width: 100%;
+}
+
+.menu {
+  position: absolute;
+  width: 50px;
+  z-index: 1;
+}
+
+.menuItem {
+  width: 50px;
+  height: 60px;
+  cursor: pointer;
+  background-color: transparent;
+
+  IMG {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+  }
+
+  DIV {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: -6px;
+  }
+}
+
+.selectedItem {
+  background-color: white;
+
+  DIV {
+    color: black;
+  }
+}
+
+.dashboard {
+  position: absolute;
+  top: -25px;
+  left: 25px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

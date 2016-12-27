@@ -6,3 +6,10 @@ export function filterTable(filter) {
         filter
     };
 }
+
+export function onSelect(item) {
+    return {
+        type: types.SELECT,
+        item
+    };
+}
