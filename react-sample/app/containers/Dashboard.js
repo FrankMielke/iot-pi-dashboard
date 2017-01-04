@@ -21,7 +21,7 @@ const DashboardProps = {
     dashboardConfig: DashboardConfig,
     selectedDashboard: null,
     experimental: false,
-    remoteContent: [],
+    remoteContent: DashboardConfig.settings.remoteContent,
     orgUsers: [{id: 'm:orgid:markus.juettner@de.ibm.com', email: 'markus.juettner@de.ibm.com'}, {id: 'm:orgid:mielke@de.ibm.com', email: 'mielke@de.ibm.com'}, {id: 'm:orgid:robter.thosssssssssssssssssssssssssssssssssssssssssssssssssssssss@de.ibm.com', email: 'robert.thosssssssssssssssssssssssssssssssssssssssssssssssssssssss@de.ibm.com'}]// add a set of custom card urls (array of "name" and "url" entries)
 };
 
@@ -95,7 +95,7 @@ class Dashboard extends Component {
       <div className="dashboardContainer">
           <Menu/>
           <div className="dashboard">
-            <IoTFDashboard auth={DashboardProps.auth} nls={DashboardProps.nls} selectedDashboard={this.props.selectedItem} orgUsers={DashboardProps.orgUsers} dashboardConfig={DashboardProps.dashboardConfig} emitter={DashboardProps.emitter}/>
+            <IoTFDashboard remoteContent={DashboardProps.remoteContent} auth={DashboardProps.auth} nls={DashboardProps.nls} selectedDashboard={this.props.selectedItem} orgUsers={DashboardProps.orgUsers} dashboardConfig={DashboardProps.dashboardConfig} emitter={DashboardProps.emitter}/>
           </div>
       </div>
     )

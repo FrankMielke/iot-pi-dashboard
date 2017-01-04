@@ -96,15 +96,11 @@
         "version": "1"
       }
     ],
-    "backup_remoteContent": [
+    "remoteContent": [
       {
         "name": "SampleCards remote",
         "url": "https://samplecards.mybluemix.net/"
-      },
-       {
-         "name": "Local card server",
-         "url": "https://localhost:6009"
-       }
+      }
     ]
   },
 
