@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" fill="#2E3636">
+            <path d="M3.66666667,0 C1.642,0 0,1.642 0,3.66666667 C0,5.69133333 1.642,7.33333333 3.66666667,7.33333333 C5.69133333,7.33333333 7.33333333,5.69133333 7.33333333,3.66666667 C7.33333333,1.642 5.69133333,0 3.66666667,0 L3.66666667,0 Z M3.66666667,6.66666667 C2.01266667,6.66666667 0.666666667,5.32066667 0.666666667,3.66666667 C0.666666667,2.01266667 2.01266667,0.666666667 3.66666667,0.666666667 C5.32066667,0.666666667 6.66666667,2.01266667 6.66666667,3.66666667 C6.66666667,5.32066667 5.32066667,6.66666667 3.66666667,6.66666667 L3.66666667,6.66666667 Z" id="Shape"></path>
+            <rect id="Rectangle-path" transform="translate(8.333200, 8.333098) rotate(-45.000000) translate(-8.333200, -8.333098) " x="7.62604012" y="6.68328012" width="1.41431977" height="3.29963502"></rect>
+            <circle id="Oval" cx="6.66666667" cy="6.66666667" r="0.333333333"></circle>
+        </g>
+    </g>
+</svg>

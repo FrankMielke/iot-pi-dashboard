@@ -338,15 +338,15 @@
         "plots": [
           {
             "id": "longitude",
-            "event": "status",
-            "property": "lng",
+            "event": "",
+            "property": "",
             "label": "Dashboard.RTI.DeviceMap.DatapointLng",
             "type": "float"
           },
           {
             "id": "latitude",
-            "event": "status",
-            "property": "lat",
+            "event": "",
+            "property": "",
             "label": "Dashboard.RTI.DeviceMap.DatapointLat",
             "type": "float"
           }
