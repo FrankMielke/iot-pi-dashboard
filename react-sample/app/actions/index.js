@@ -13,3 +13,15 @@ export function onSelect(item) {
         item
     };
 }
+
+export function showSettings() {
+    return {
+        type: types.SHOW_SETTINGS
+    };
+}
+
+export function hideSettings() {
+    return {
+        type: types.HIDE_SETTINGS
+    };
+}

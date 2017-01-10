@@ -7,6 +7,7 @@ const IoTFDashboard = IoTFComponents.Dashboard;
 import DashboardConfig from '../PiDashboardConfig.json';
 import nlsData from '../@watson-iot/dashboard/nls/react-modules/messages-en.json';
 import Menu from './Menu.js';
+import CredentialDialog from '../components/CredentialDialog';
 
 const DashboardProps = {
     auth: {
@@ -94,9 +95,20 @@ class Dashboard extends Component {
     return (
       <div className="dashboardContainer">
           <Menu/>
-          <div className="dashboard">
-            <IoTFDashboard remoteContent={DashboardProps.remoteContent} auth={DashboardProps.auth} nls={DashboardProps.nls} selectedDashboard={this.props.selectedItem} orgUsers={DashboardProps.orgUsers} dashboardConfig={DashboardProps.dashboardConfig} emitter={DashboardProps.emitter}/>
-          </div>
+          {
+            this.props.settingsVisible?
+            <CredentialDialog
+              nls={DashboardProps.nls}
+              theme={{}}
+              onCloseDialog={this.props.hideSettings}
+              onCancelDialog={this.props.hideSettings}
+              onSetAuth={auth => {DashboardProps.auth = auth}}
+            />
+            :
+            <div className="dashboard">
+              <IoTFDashboard remoteContent={DashboardProps.remoteContent} auth={DashboardProps.auth} nls={DashboardProps.nls} selectedDashboard={this.props.selectedItem} orgUsers={DashboardProps.orgUsers} dashboardConfig={DashboardProps.dashboardConfig} emitter={DashboardProps.emitter}/>
+            </div>
+          }
       </div>
     )
   }
@@ -105,19 +117,23 @@ class Dashboard extends Component {
 DashboardProps.nls = new NLS();
 
 Dashboard.propTypes = {
-   selectedItem: PropTypes.string
+   selectedItem: PropTypes.string,
+   settingsVisible: PropTypes.bool,
+   hideSettings: PropTypes.hideSettings
 };
 
 const mapStateToProps = (state) => {
     return {
-      selectedItem: state.menu.selectedItem
+      selectedItem: state.menu.selectedItem,
+      settingsVisible: state.menu.settingsVisible
     }
 };
 
 const mapDispatchToProps = (dispatch) => {
   const actionCreators = bindActionCreators(actions, dispatch)
   return {
-    onSelect: actionCreators.onSelect
+    onSelect: actionCreators.onSelect,
+    hideSettings: actionCreators.hideSettings
   }
 };
 

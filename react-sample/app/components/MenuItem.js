@@ -6,7 +6,7 @@ const MenuItem = (props) => {
     className = "menuItem selectedItem"
   }
   return (
-    <div className={className} onClick={() => props.onSelect(props.target)}>
+    <div className={className} style={props.target === '###SETTINGS###' ? {bottom: '0px', position: 'absolute'} : {}} onClick={() => props.onSelect(props.target)}>
       <img src={'../app/resources/' + props.icon}/>
       <div>
         {props.label}

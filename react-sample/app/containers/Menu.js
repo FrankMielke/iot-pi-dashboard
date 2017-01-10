@@ -11,7 +11,7 @@ class Menu extends Component {
   }
 
   render = () => {
-    const {items, selectedItem, onSelect} = this.props
+    const {items, selectedItem, onSelect, showSettings} = this.props
       return (
         <div className="menu">
           {items.map(item => {
@@ -25,6 +25,13 @@ class Menu extends Component {
               />
             )
           })}
+          <MenuItem
+            label='Settings'
+            target='###SETTINGS###'
+            icon='gs48.png'
+            onSelect={showSettings}
+            selected={false}
+          />
         </div>
       )
   }
@@ -33,7 +40,8 @@ class Menu extends Component {
 Menu.propTypes = {
    items: PropTypes.array,
    selectedItem: PropTypes.string,
-   onSelect: PropTypes.func
+   onSelect: PropTypes.func,
+   showSettings: PropTypes.func
 };
 
 const mapStateToProps = (state) => {
@@ -43,7 +51,8 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   const actionCreators = bindActionCreators(actions, dispatch)
   return {
-    onSelect: actionCreators.onSelect
+    onSelect: actionCreators.onSelect,
+    showSettings: actionCreators.showSettings
   }
 };
 

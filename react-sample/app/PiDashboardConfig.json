@@ -82,13 +82,13 @@
     "configRepositoryPassword": "1234",
     "hideCredentialDialog":true,
     "configVersion": 1,
-    "auth": {
+    "auth_backup": {
       "ltpa": null,
       "id": "a-6qkzjf-hgyddqkvqc",
       "org": "6qkzjf",
       "domain": "internetofthings.ibmcloud.com",
       "apiKey": "a-6qkzjf-hgyddqkvqc",
-      "apiToken": "t&Y!AV&@g6+bCI(fo0"
+      "apiToken": null
     },
     "defaultDashboards": [
       {

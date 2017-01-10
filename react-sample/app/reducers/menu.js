@@ -29,7 +29,8 @@ const getDefaultMenu = () => {
         icon: 'gs10.png'
       }
     ],
-    selectedItem: '0d3d5338-8a6c-43b6-9699-39b42bba216a'
+    selectedItem: '0d3d5338-8a6c-43b6-9699-39b42bba216a',
+    settingsVisible: false
   }
 }
 
@@ -37,8 +38,14 @@ const menu = (state = getDefaultMenu(), action) => {
     switch (action.type) {
         case types.SELECT:
             return {...state, selectedItem: action.item}
+        case types.SHOW_SETTINGS:
+            return {...state, settingsVisible: true}
+        case types.HIDE_SETTINGS:
+            return {...state, settingsVisible: false}
         default:
             return state;
     }
 };
+
+
 export default menu;

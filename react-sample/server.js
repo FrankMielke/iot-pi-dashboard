@@ -20,7 +20,7 @@ console.log(options);
 
 var app = new WebpackDevServer(webpack(config), {
     publicPath: config.output.publicPath,
-    hot: true,
+    hot: false,
     historyApiFallback: true,
     // It suppress error shown in console, so it has to be set to false.
     quiet: false,

@@ -34,6 +34,7 @@ header {
   position: absolute;
   width: 50px;
   z-index: 1;
+  height: 100%;
 }
 
 .menuItem {
@@ -71,4 +72,12 @@ header {
   width: 100%;
   overflow-x: hidden;
   overflow-y: auto;
+}
+
+.credentialTable {
+  width: 100%;
+
+  TD {
+    padding: 0 10px;
+  }
 }
