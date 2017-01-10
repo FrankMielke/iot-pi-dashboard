@@ -82,6 +82,7 @@
     "configRepositoryPassword": "1234",
     "hideCredentialDialog":true,
     "configVersion": 1,
+    "auth": {},
     "auth_backup": {
       "ltpa": null,
       "id": "a-6qkzjf-hgyddqkvqc",
