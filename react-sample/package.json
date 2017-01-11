@@ -17,6 +17,9 @@
   "author": "Jean-Pierre Sierens",
   "license": "MIT",
   "dependencies": {
+    "url": "^0.11.0",
+    "express": "4.12.x",
+    "body-parser": "^1.15.1",
     "btoa": "^1.1.2",
     "exports-loader": "^0.6.3",
     "expose-loader": "^0.7.1",

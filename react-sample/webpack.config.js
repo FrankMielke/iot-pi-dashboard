@@ -8,7 +8,7 @@ module.exports = {
     devtool: 'source-map',
     debug: true,
     entry: [
-        'webpack-dev-server/client?http://localhost:3000',
+        'webpack-dev-server/client?http://localhost:3001',
         'webpack/hot/only-dev-server',
         'react-hot-loader/patch',
         path.join(__dirname, 'app/index.js')
@@ -16,7 +16,7 @@ module.exports = {
     output: {
         path: path.join(__dirname, '/dist/'),
         filename: '[name].js',
-        publicPath: '/'
+        publicPath: 'http://localhost:3001/'
     },
     plugins: [
         new HtmlWebpackPlugin({

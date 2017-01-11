@@ -8,8 +8,9 @@
     "angular-start": "cd ./angular-sample && node server",
     "react-init": "cd ./react-sample && npm install",
     "react-start": "cd ./react-sample && node server"
-    
   },
   "author": "Markus Juettner <markus.juettner@de.ibm.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+  }
 }

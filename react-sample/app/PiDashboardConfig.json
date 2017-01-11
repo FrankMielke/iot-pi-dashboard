@@ -80,9 +80,13 @@
     "configRepositoryURL": "/api/v0002/dashboard",
     "configRepositoryUser": "mielke@de.ibm.com",
     "configRepositoryPassword": "1234",
-    "hideCredentialDialog":true,
+    "hideCredentialDialog":false,
     "configVersion": 1,
-    "auth": {},
+    "auth": {
+      "id": "a-6qkzjf-hgyddqkvqc",
+      "org": "6qkzjf",
+      "domain": "internetofthings.ibmcloud.com"
+    },
     "auth_backup": {
       "ltpa": null,
       "id": "a-6qkzjf-hgyddqkvqc",
