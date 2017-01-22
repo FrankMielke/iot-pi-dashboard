@@ -30,6 +30,7 @@ wget https://nodejs.org/dist/v4.3.2/node-v4.3.2-linux-armv6l.tar.gz
 tar -xvf node-v4.3.2-linux-armv6l.tar.gz 
 cd node-v4.3.2-linux-armv6l
 sudo cp -R * /usr/local/
+sudo reboot
 ``` 
 
 We assume that you are using the default user pi. We are installing the code into the Projects folder. If you choose another location, you will have to adapt the path in the startup script.
@@ -73,7 +74,7 @@ npm run react-start &
 The Pi has a default screen saver which causes problems with the display. In addition, the monitor should be running all the time without user interaction. We will disable the screen saver. We also want the chromium browser to start automatically in kiosk mode showing the dashboard page.
 
 ```console
-nano /home/pi/.config/lxsession/LXDE-pi
+nano /home/pi/.config/lxsession/LXDE-pi/autostart
 ``` 
 
 Add following lines to the file
@@ -95,8 +96,15 @@ echo 128 > /sys/class/backlight/rpi_backlight/brightness
 The orientation of the display has been changed in the latest revision. If you have an older case and a new display, you might already have noticed that the screen is upside down. We will change the orientation.
 
 ```console
-TODO
+sudo nano /boot/config.txt
 ``` 
+
+Add following line to the end of the file
+
+```console
+lcd_rotate=2
+``` 
+
 
 
 
