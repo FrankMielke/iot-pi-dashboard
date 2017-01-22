@@ -1,0 +1,16 @@
+{
+  "name": "mqttws31",
+  "_cacheHeaders": {
+    "ETag": "\"76fcd26a94bba62875e4f4a2064f4f867afa419d\"",
+    "Last-Modified": "Thu, 01 May 2014 15:42:34 GMT",
+    "Content-Length": "77766",
+    "Content-Type": "text/plain; charset=UTF-8",
+    "Content-Disposition": "inline; filename=\"mqttws31.js\""
+  },
+  "_release": "e-tag:76fcd26a9",
+  "main": "index.js",
+  "_source": "http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/plain/src/mqttws31.js",
+  "_target": "*",
+  "_originalSource": "http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.javascript.git/plain/src/mqttws31.js",
+  "_direct": true
+}
