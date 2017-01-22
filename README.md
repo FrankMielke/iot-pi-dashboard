@@ -43,14 +43,14 @@ git clone https://github.com/FrankMielke/iot-pi-dashboard.git
 No that the code is in the folder, use npm to resolve the needed modules and start the server. We use a Node based Webpack server to build the code on the fly and serve it to the Browser. This approach is normally intended for development purposes, but it proved to be very practical for this project since you just have to pull the latest code and the Webpack server automatically builds the changes and refreshes the Browser. Of course, you could also build the repository in advance and serve only the optimized modules.
 
 ```console
-npm run react-init
+npm install
 ``` 
 
 The installation of the dependencies can take quite a while.
 If this is done, wee can finally start the server. Remember: We will have to set the credentials before we can really use it. We just try if the server starts without errors, since it will be automatically started later on.
 
 ```console
-npm run react-start
+npm start
 ``` 
 
 ## Configure 
@@ -67,7 +67,7 @@ Add following lines to the file
 
 ```console
 cd /home/pi/Documents/iot-pi-dashboard
-npm run react-start &
+npm start &
 ``` 
 
 ##### Disable screen saver and start chromium in kiosk mode
@@ -93,7 +93,7 @@ echo 128 > /sys/class/backlight/rpi_backlight/brightness
 ``` 
 
 ##### Change the screen orientation
-The orientation of the display has been changed in the latest revision. If you have an older case and a new display, you might already have noticed that the screen is upside down. We will change the orientation.
+The orientation of the display has been changed in the latest revision of the touch screen. If you have an older case and a new display, you might already have noticed that the screen is upside down. We will change the orientation. 
 
 ```console
 sudo nano /boot/config.txt
@@ -104,6 +104,75 @@ Add following line to the end of the file
 ```console
 lcd_rotate=2
 ``` 
+
+##### Remove mouse pointer
+The mouse pointer does not make too much sense on a touch device. We remove it.
+
+```console
+sudo apt-get install unclutter
+``` 
+
+## Setup Dashboard
+Everything should be installed now. In this step, we will connect to a set of existing IoT Dashboards. The idea is, to create and modify the dashboards on a large screen and synchronize the configuration with the Pi.
+
+##### Create menu
+There is no menu concept for dashboards in the IoT Platform. The Pi version of the dashboard uses a hard coded menu as part of the wrapper application. You can configure it by modifying the PiDashboardConfig.json configuration file
+
+```console
+cd /home/pi/Projects/iot-pi-dashboard/app
+nano PiDashboardConfig.json
+``` 
+
+Search for the menu configuration and modify it. The menu is basically a list of menu entries with an icon, a label and the id of a dashboard. You can find the icon files in /app/resources.
+
+```console
+{
+...
+  "settings": {
+  ...
+    "menu": {
+      "items": [
+        {
+          "label": "Power",
+          "id": "0d3d5338-8a6c-43b6-9699-39b42bba216a",
+          "icon": "gs45.png"
+        },
+        {
+          "label": "Water",
+          "id": "d45ca378-e683-4c36-b643-00c3d530d749",
+          "icon": "gs39.png"
+        },
+        ...
+      ],
+      "selectedItem": "0d3d5338-8a6c-43b6-9699-39b42bba216a"
+    }
+  }
+}
+``` 
+
+##### Set credentials
+You can set your credentials in the same configuration file. You can also set the credentials using the settings dialog in the Dashboard Monitor, but if you do not have a mouse and keyboard attached to your Pi, it might be easier to do it here. The dialog would modify the same file.
+
+```console
+{
+...
+  "settings": {
+  ...
+    "auth": {
+      "ltpa": "",
+      "id": "a-6qkzjf-hgyddqkvqc",
+      "org": "6qkzjf",
+      "domain": "internetofthings.ibmcloud.com",
+      "apiKey": "a-6qkzjf-hgyddqkvqc",
+      "apiToken": "PUT_TOKEN_HERE"
+    }
+  }
+}
+``` 
+
+Create an apiKey and apiToken in the IoT Platform and specify it here together with user id and org. Domain does not have to be changed. You could also use an LTPA Token for authentication but since the token is invalidated from time to time, it does not make too much sense for a 24/7 monitor.
+
+
 
 
 
