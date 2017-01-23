@@ -65,7 +65,7 @@ sudo nano /etc/rc.local
 Add following lines to the file, just before the existing exit(0) line.
 
 ```console
-cd /home/pi/Documents/iot-pi-dashboard
+cd /home/pi/Projects/iot-pi-dashboard
 npm start &
 ``` 
 
