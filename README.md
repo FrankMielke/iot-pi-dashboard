@@ -171,7 +171,9 @@ You can set your credentials in the same configuration file. You can also set th
 
 Create an apiKey and apiToken in the IoT Platform and specify it here together with user id and org. Domain does not have to be changed for the Watson IoT production system. You could also use an LTPA Token for authentication but since the token is invalidated from time to time, it does not make too much sense for a 24/7 monitor.
 
-
+## Startup
+Your Dashboard Monitor should automatically start up when you boot the Pi. After reboot you will see a full screen Chromium browser showing a "Page not found" error. This error will disappear after some seconds when the server is ready. 
+If you want to access the Desktop, just press the Windows key on your keyboard to get the menu.
 
 
 
