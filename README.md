@@ -9,7 +9,7 @@ The official 7" touch display is not great but it works pretty much out of the b
 #### Raspberry Pi 7" display case
 The case for Pi and display is of course not mandatory but it looks pretty professional on your desktop.
 #### 5.1V/2.5A power supply
-The Pi 3 and the display are very hungry. You will notice a yellow flash symbol in the top right corner every time the voltage drops under a certain level which seems to be most of the time with a normal power supply. Use a powerful 5.1V power supply with at least 2.5 A. 
+The Pi 3 and the display are very hungry. You will notice a yellow flash symbol in the top right corner every time the voltage drops under a certain level which seems to be most of the time with a normal power supply. Use a powerful 5.1V power supply with at least 2.5 A. If you still see problems with the power consumption, plug in the power adapter into the USB port of the Pi and not into the one of the display.
 
 ## Install Raspberry Pi
 Setup your Pi with the latest Raspbian Jessie using Noobs. There are many instructions, e.g. this one
