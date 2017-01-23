@@ -6,7 +6,6 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import { AppContainer } from 'react-hot-loader';
 import configureStore from './store/configureStore';
 import Root from './containers/Root';
-import './styles/main.scss';
 
 // require('imports?window=>{}!exports?window.IoTFComponents!@watson-iot/dashboard/js/IoTFComponents.min.js');
 
