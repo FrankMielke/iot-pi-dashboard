@@ -83,6 +83,20 @@ Add following lines to the file
 @chromium-browser --kiosk --disable-overlay-srollbar --noerrdialogs --incognito http://localhost:3000
 ``` 
 
+For the screensaver, we need some other changes
+
+```console
+sudo nano /etc/kbd/config
+``` 
+
+Add following lines to the end of the file
+
+```console
+BLANK_TIME=0
+BLANK_DPMS=off
+POWERDOWN_TIME=0
+``` 
+
 #### Change the brightness of the screen
 Since the monitor runs all the time, we will dim the brightness. Otherwise it would be too bright in a dark room.
 
